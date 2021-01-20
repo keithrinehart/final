@@ -1,0 +1,64 @@
+.menu-container {
+  position: absolute;
+  top: 30px;
+  right: 90px;
+  padding: 10px;
+}
+
+.menu-container:hover {
+  cursor: pointer;
+}
+
+.menu-container:hover .line {
+  width: 24px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.line {
+  position: relative;
+  border-radius: 30px;
+  width: 8px;
+  height: 2px;
+  background-color: ivory;
+  margin: 5px 0;
+}
+
+.line2 {
+  position: relative;
+  border-radius: 30px;
+  width: 14px;
+  height: 2px;
+  background-color: ivory;
+  margin: 5px 0;
+}
+
+.line3 {
+  position: relative;
+  border-radius: 30px;
+  width: 24px;
+  height: 2px;
+  background-color: ivory;
+  margin: 5px 0;
+}
+
+.banner {
+  position: absolute;
+  width: 150px;
+  top: 8px;
+  right: -20px;
+  transform: rotate(-140deg);
+}
+
+.banner-p {
+  position: absolute;
+  font-size: 13px;
+  top: 40px;
+  right: 11px;
+  transform: rotate(40deg);
+  font-style: italic;
+}
+
+.first-word-banner {
+  padding: 3px;
+}
