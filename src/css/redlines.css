@@ -1,0 +1,6 @@
+.first-red-line {
+  position: absolute;
+  width: 100px;
+  height: 500px;
+  background-color: rgb(255, 0, 0);
+}

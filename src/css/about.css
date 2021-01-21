@@ -1,7 +1,18 @@
-.about-body {
-  background-color: red;
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.about-h1 {
-  color: saddlebrown;
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  overflow: auto;
+  background-color: #171c27;
 }

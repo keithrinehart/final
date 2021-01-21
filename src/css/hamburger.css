@@ -3,6 +3,7 @@
   top: 30px;
   right: 90px;
   padding: 10px;
+  z-index: 11;
 }
 
 .menu-container:hover {
@@ -15,13 +16,21 @@
   cursor: pointer;
 }
 
+.inner-container {
+  position: relative;
+  height: 20px;
+  top: 20px;
+}
+
 .line {
   position: relative;
   border-radius: 30px;
   width: 8px;
   height: 2px;
   background-color: ivory;
+
   margin: 5px 0;
+  z-index: 11;
 }
 
 .line2 {
@@ -31,6 +40,7 @@
   height: 2px;
   background-color: ivory;
   margin: 5px 0;
+  z-index: 11;
 }
 
 .line3 {
@@ -40,25 +50,5 @@
   height: 2px;
   background-color: ivory;
   margin: 5px 0;
-}
-
-.banner {
-  position: absolute;
-  width: 150px;
-  top: 8px;
-  right: -20px;
-  transform: rotate(-140deg);
-}
-
-.banner-p {
-  position: absolute;
-  font-size: 13px;
-  top: 40px;
-  right: 11px;
-  transform: rotate(40deg);
-  font-style: italic;
-}
-
-.first-word-banner {
-  padding: 3px;
+  z-index: 11;
 }

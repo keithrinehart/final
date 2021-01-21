@@ -1,5 +1,23 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  overflow: auto;
+}
 .gall-body {
-  background-color: saddlebrown;
+  background-color: #171c27;
+  height: 100vh;
 }
 
 .gall-h1 {
