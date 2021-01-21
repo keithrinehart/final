@@ -1,29 +1,29 @@
 .first-red-line {
   position: relative;
-  top: 2289px;
-  left: 100px;
+  top: 3297px;
+  left: -200px;
   width: 1px;
-  height: 450px;
+  height: 380px;
   background-color: rgb(255, 0, 0);
   z-index: 15;
 }
 
 .second-red-line {
   position: relative;
-  top: 1790px;
-  left: 300px;
+  top: 2547px;
+  left: 150px;
   width: 1px;
-  height: 500px;
+  height: 750px;
   background-color: rgb(255, 0, 0);
   z-index: 15;
 }
 
 .third-red-line {
   position: relative;
-  top: 1239px;
+  top: 1389px;
   left: 500px;
   width: 1px;
-  height: 550px;
+  height: 1158px;
   background-color: rgb(255, 0, 0);
   z-index: 15;
 }
