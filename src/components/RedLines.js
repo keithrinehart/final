@@ -5,6 +5,8 @@ function RedLines() {
   return (
     <div>
       <div className="first-red-line"></div>
+      <div className="second-red-line"></div>
+      <div className="third-red-line"></div>
     </div>
   );
 }

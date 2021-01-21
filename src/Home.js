@@ -8,6 +8,7 @@ function Home() {
   return (
     <header className="App-header">
       <Hamburger />
+      <RedLines />
       <h1 id="homeh1">
         Artsy<span className="span-homeh1">Ish</span>
       </h1>
@@ -21,7 +22,6 @@ function Home() {
       <FloatingImg />
       <img className="face-img" src={Face} alt="painted face" />
       <div className="shadow"></div>
-      <RedLines />
     </header>
   );
 }
