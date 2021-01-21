@@ -1,6 +1,29 @@
 .first-red-line {
-  position: absolute;
-  width: 100px;
+  position: relative;
+  top: 2289px;
+  left: 100px;
+  width: 1px;
+  height: 450px;
+  background-color: rgb(255, 0, 0);
+  z-index: 15;
+}
+
+.second-red-line {
+  position: relative;
+  top: 1790px;
+  left: 300px;
+  width: 1px;
   height: 500px;
   background-color: rgb(255, 0, 0);
+  z-index: 15;
+}
+
+.third-red-line {
+  position: relative;
+  top: 1239px;
+  left: 500px;
+  width: 1px;
+  height: 550px;
+  background-color: rgb(255, 0, 0);
+  z-index: 15;
 }
