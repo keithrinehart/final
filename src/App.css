@@ -7,13 +7,13 @@
 }
 
 body {
-  font-family: "Nanum Myeongjo", serif;
+  font-family: "Nunito", sans-serif;
 }
 
 .App {
   height: 100vh;
   text-align: center;
-  font-family: "Nanum Myeongjo", serif;
+  font-family: "Nunito", sans-serif;
 }
 
 .App-header {
@@ -89,7 +89,7 @@ body {
   padding-bottom: 200px;
   top: -580px;
   color: ivory;
-  font-family: "Cantata One", serif;
+  font-family: "Cinzel Decorative", cursive;
   font-size: 5em;
   font-weight: 100;
   letter-spacing: 2px;
@@ -125,13 +125,14 @@ body {
 .home-pic-1 {
   position: relative;
   right: 230px;
-  top: 432px;
+  top: 449px;
   background-image: url(./img/vtrooper.jpg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   width: 290px;
-  height: 185px;
+  height: 169px;
+  border: 3px solid rgb(255, 0, 0);
   border-radius: 4px;
   transform: perspective(600px) rotateY(-30deg);
   box-shadow: 30px 20px 5px 0px rgba(0, 0, 0, 0.199),
@@ -141,13 +142,14 @@ body {
 .home-pic-2 {
   position: relative;
   right: 125px;
-  top: 61px;
+  top: 80px;
   background-image: url(./img/redandblack.jpg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   width: 225px;
-  height: 188px;
+  height: 169px;
+  border: 3px solid rgb(255, 0, 0);
   border-radius: 4px;
   transform: perspective(600px) rotateY(-30deg);
   box-shadow: 30px 20px 5px 0px rgba(0, 0, 0, 0.199),
@@ -156,14 +158,15 @@ body {
 
 .home-pic-3 {
   position: relative;
-  top: -350px;
+  top: -330px;
   right: 15px;
   background-image: url(./img/zombie.jpg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   width: 250px;
-  height: 190px;
+  height: 169px;
+  border: 3px solid rgb(255, 0, 0);
   border-radius: 4px;
   transform: perspective(600px) rotateY(-30deg);
   box-shadow: 30px 20px 5px 0px rgba(0, 0, 0, 0.199),
