@@ -212,5 +212,5 @@ body {
   letter-spacing: 2px;
   transform: rotate(0deg) skewX(-10deg);
   text-shadow: 1px 1px #333, 2px 2px #333;
-  z-index: 20;
+  z-index: 21;
 }
