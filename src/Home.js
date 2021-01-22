@@ -20,9 +20,13 @@ function Home() {
           rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
           ipsum dolor sit amet. Lorem ipsum invidunt ut labore et.
         </p>
+
         <div className="home-pic-1"></div>
         <div className="home-pic-2"></div>
         <div className="home-pic-3 home-sign-3"></div>
+        <div className="what">WHAT</div>
+        <div className="is">IS</div>
+        <div className="art">ART</div>
       </div>
       <FloatingImg />
       <img className="face-img" src={Face} alt="painted face" />
