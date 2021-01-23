@@ -1,10 +1,12 @@
+.section2home-container {
+  margin: 300px 0 0 0;
+}
+
 .flex {
-  position: relative;
   display: flex;
   width: 1400px;
-  top: 400px;
-  left: 00px;
   background-color: rgba(0, 0, 0, 0.678);
+  text-align: center;
 }
 
 .img1 {

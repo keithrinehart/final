@@ -5,6 +5,7 @@ import {
   Switch,
   Redirect,
 } from "react-router-dom";
+import "aos/dist/aos.css";
 import Home from "./Home";
 import About from "./About";
 import Gallery from "./Gallery";
@@ -12,8 +13,8 @@ import Contact from "./Contact";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
+    <div className="App">
+      <Router>
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/gallery" component={Gallery} />
@@ -21,8 +22,8 @@ function App() {
           <Route path="/contact" component={Contact} />
           <Redirect to="/" />
         </Switch>
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 }
 

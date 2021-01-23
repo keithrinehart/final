@@ -8,18 +8,22 @@ function OpenHamburger() {
       <ul>
         <Link to="/">
           <li className="ham-li">Home</li>
+          <div className="home-box"></div>
           <p className="ham-line">_</p>
         </Link>
         <Link to="/gallery">
           <li className="ham-li">Galleries</li>
+          <div className="gall-box"></div>
           <p className="ham-line">_</p>
         </Link>
         <Link to="/about">
           <li className="ham-li">About</li>
+          <div className="about-box"></div>
           <p className="ham-line">_</p>
         </Link>
         <Link to="/contact">
           <li className="ham-li">Contact</li>
+          <div className="contact-box"></div>
           <p className="ham-line">_</p>
         </Link>
       </ul>

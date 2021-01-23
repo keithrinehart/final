@@ -46,6 +46,7 @@ li {
   color: rgb(255, 255, 255);
   font-size: 25px;
   animation: ham-wording 1.5s linear;
+  z-index: 100;
 }
 
 @keyframes ham-wording {
@@ -60,12 +61,110 @@ li {
   }
 }
 
+.home-box {
+  position: relative;
+  top: -82px;
+  left: 200px;
+  width: 40px;
+  height: 30px;
+  border-radius: 0 10px 10px 0;
+  opacity: 0;
+  background-color: rgba(255, 0, 0, 0.452);
+  z-index: -1;
+  animation: menubox 0.3s linear 1s forwards, none;
+}
+
+@keyframes menubox {
+  0% {
+    left: 30px;
+    opacity: 0.2;
+  }
+  100% {
+    left: 200px;
+    opacity: 1;
+  }
+}
+
+.gall-box {
+  position: relative;
+  top: -82px;
+  left: 215px;
+  width: 40px;
+  height: 30px;
+  border-radius: 0 10px 10px 0;
+  opacity: 0;
+  background-color: rgba(255, 0, 0, 0.452);
+  z-index: -1;
+  animation: gallbox 0.3s linear 1.2s forwards, none;
+}
+
+@keyframes gallbox {
+  0% {
+    left: 0px;
+    opacity: 0.2;
+  }
+  100% {
+    left: 215px;
+    opacity: 1;
+  }
+}
+
+.about-box {
+  position: relative;
+  top: -83px;
+  left: 157px;
+  width: 40px;
+  height: 30px;
+  border-radius: 10px 0 0 10px;
+  opacity: 0;
+  background-color: rgba(255, 0, 0, 0.452);
+  z-index: -1;
+  animation: aboutbox 0.3s linear 1.4s forwards, none;
+}
+
+@keyframes aboutbox {
+  0% {
+    left: 350px;
+    opacity: 0.2;
+  }
+  100% {
+    left: 157px;
+    opacity: 1;
+  }
+}
+
+.contact-box {
+  position: relative;
+  top: -84px;
+  left: 150px;
+  width: 40px;
+  height: 30px;
+  border-radius: 10px 0 0 10px;
+  opacity: 0;
+  background-color: rgba(255, 0, 0, 0.452);
+  z-index: -1;
+  animation: contactbox 0.3s linear 1.6s forwards, none;
+}
+
+@keyframes contactbox {
+  0% {
+    left: 400px;
+    opacity: 0.2;
+  }
+  100% {
+    left: 150px;
+    opacity: 1;
+  }
+}
+
 .ham-line {
   position: relative;
+  justify-content: center;
+  text-align: center;
   text-decoration: none;
   top: -65px;
   color: rgb(255, 0, 0);
-  animation: ham-lightshow 3s linear;
+  animation: ham-lightshow 4s linear;
 }
 
 @keyframes ham-lightshow {

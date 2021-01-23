@@ -1,11 +1,16 @@
-import React from "react";
-import "../css/floatingimg.css";
+import React, { useEffect } from "react";
+import "../css/section2home.css";
 import { Link } from "react-router-dom";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Img1 from "../img/img1.jpg";
 
-function FloatingImg() {
+function Section2Home() {
+  useEffect(() => {
+    Aos.init({ offset: 1000, duration: 2000 });
+  }, []);
   return (
-    <div>
+    <div className="section2home-container">
       <div className="flex">
         <img className="img1" src={Img1} alt="Womans painted face"></img>
         <div className="float-col">
@@ -27,4 +32,4 @@ function FloatingImg() {
   );
 }
 
-export default FloatingImg;
+export default Section2Home;
