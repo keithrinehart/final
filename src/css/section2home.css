@@ -1,5 +1,6 @@
 .section2home-container {
-  margin: 300px 0 0 0;
+  position: relative;
+  top: 300px;
 }
 
 .flex {
