@@ -33,33 +33,23 @@ body {
 
 .header-container {
   max-width: 1200px;
-  margin: 50px 0 50px 0;
+  margin: 50px 0 200px 0;
 }
 
 .face-img {
   position: relative;
-  width: 600px;
-  height: 350px;
-  border-radius: 50%;
+  width: 500px;
+  height: 300px;
+  top: 150px;
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 3px;
   transform: rotate(35deg);
   margin: 150px 0 0 0px;
-  box-shadow: 0px 0px 15px 0px rgb(44, 44, 61), 0px 0px 15px 0px rgb(43, 43, 54),
-    0px 0px 15px 0px rgb(25, 25, 36) inset;
-  -webkit-box-reflect: below -20px linear-gradient(transparent, #0002);
-  animation: face 6s linear;
-  z-index: 1;
-}
+  box-shadow: 0px 0px 15px 0px rgb(44, 44, 61);
 
-@keyframes face {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
+  -webkit-box-reflect: below -20px linear-gradient(transparent, #0002);
+
+  z-index: 1;
 }
 
 /*
@@ -85,13 +75,15 @@ body {
   font-family: "Cinzel Decorative", cursive;
   font-size: 100px;
   font-weight: 100;
-  letter-spacing: 2px;
+  letter-spacing: 20px;
   text-align: center;
   text-shadow: 2px 4px 15px rgba(0, 0, 0, 0.9);
   z-index: 5;
 }
 
 .span-homeh1 {
+  position: relative;
+  top: 50px;
   color: rgb(255, 0, 0);
 }
 
@@ -103,26 +95,29 @@ body {
 .p-line {
   position: relative;
   top: 106px;
-  left: 80px;
   background-color: rgb(255, 0, 0);
   width: 1px;
   height: 200px;
-  animation: line1 2s linear;
+  opacity: 0;
+  animation: line1 2s linear forwards, none;
+  animation-delay: 3s;
 }
 
 @keyframes line1 {
   0% {
     height: 0px;
+    opacity: 1;
   }
   100% {
     height: 200px;
+    opacity: 1;
   }
 }
 
 .p-line2 {
   position: relative;
   top: 435px;
-  right: 150px;
+  right: 230px;
   width: 1px;
   height: 80px;
   transform: rotateZ(90deg);
@@ -132,6 +127,7 @@ body {
 
 .home-p1 {
   position: relative;
+  right: 80px;
   font-size: 20px;
   max-width: 390px;
   min-width: 390px;

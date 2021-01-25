@@ -1,16 +1,46 @@
-import React, { useEffect } from "react";
+import React, { useRef } from "react";
+import { useIntersection } from "react-use";
 import "../css/section2home.css";
-import { Link } from "react-router-dom";
-import Aos from "aos";
-import "aos/dist/aos.css";
 import Img1 from "../img/img1.jpg";
+import { Link } from "react-router-dom";
+import gsap from "gsap";
 
 function Section2Home() {
-  useEffect(() => {
-    Aos.init({ offset: 1000, duration: 2000 });
-  }, []);
+  // Ref for our element
+  const sectionRef = useRef(null);
+  // All the ref to be observed
+  const intersection = useIntersection(sectionRef, {
+    root: null,
+    rootMargin: "0px",
+    threshold: 0.9,
+  });
+
+  // Animation for fading in
+  const fadeIn = (element) => {
+    gsap.to(element, 1, {
+      opacity: 1,
+      y: -60,
+      ease: "power4.out",
+      stagger: {
+        amount: 0.3,
+      },
+    });
+  };
+
+  // Animation for fading out
+  const fadeOut = (element) => {
+    gsap.to(element, 1, {
+      opacity: 0,
+      y: -20,
+      ease: "power4.out",
+    });
+  };
+
+  intersection && intersection.intersectionRatio < 0.9
+    ? fadeOut(".fadeIn")
+    : fadeIn(".fadeIn");
   return (
-    <div className="section2home-container">
+    <div ref={sectionRef} className="section2home-container sectionone">
       <div className="flex">
         <img className="img1" src={Img1} alt="Womans painted face"></img>
         <div className="float-col">
