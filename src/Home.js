@@ -4,6 +4,7 @@ import Face from "./img/face.jpg";
 import Hamburger from "./components/Hamburger";
 import Section1Home from "./components/Section1Home";
 import Section2Home from "./components/Section2Home";
+import Section3Home from "./components/Section3Home";
 
 function Home() {
   let headingh1 = useRef(null);
@@ -71,6 +72,7 @@ function Home() {
       <Hamburger />
       <Section1Home />
       <Section2Home />
+      <Section3Home />
     </header>
   );
 }

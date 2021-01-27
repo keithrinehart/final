@@ -1,9 +1,10 @@
 .section2home-container {
   position: relative;
   width: 100%;
-  height: 1000px;
-  padding-top: 500px;
-  box-shadow: 0 -60px 80px 10px #171c27, 0 0px 80px 20px #171c27 inset;
+  height: 1300px;
+  padding-top: 400px;
+  box-shadow: 0 -60px 80px 10px #171c27, 0 0px 80px 20px #171c27 inset,
+    0 100px 90px 5px #171c27;
   z-index: 95;
 }
 
