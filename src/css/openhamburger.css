@@ -17,7 +17,8 @@
   background-position: top;
   background-repeat: no-repeat;
   background-size: contain;
-  z-index: 10;
+  overflow: hidden;
+  z-index: 99;
   animation: burger 1s linear;
 }
 
