@@ -1,0 +1,158 @@
+.section-3-container {
+  width: 100%;
+  height: 500px;
+  padding-top: 100px;
+  z-index: 93;
+}
+
+.sec-3-inner-container {
+  position: relative;
+  margin: 0 auto;
+  justify-content: center;
+  width: 37%;
+  min-width: 700px;
+  padding: 100px 0 100px 0;
+}
+
+#section-3-h3 {
+  position: relative;
+  color: rgba(255, 255, 255, 0);
+  top: 23%;
+  left: 50%;
+  font-size: 35px;
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease-out;
+  -webkit-text-stroke: 1px rgba(255, 0, 0, 0.6);
+}
+
+.cell-hover:hover .section-3-img {
+  cursor: progress;
+  animation: cell 1.5s linear infinite, ease-in-out;
+}
+
+@keyframes cell {
+  0% {
+    transform: rotate(0deg);
+  }
+  2% {
+    transform: rotate(-2deg);
+  }
+  4% {
+    transform: rotate(0deg);
+  }
+  6% {
+    transform: rotate(-2deg);
+  }
+  8% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-2deg);
+  }
+  20% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: rotate(0deg);
+  }
+  35% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  52% {
+    transform: rotate(-2deg);
+  }
+  54% {
+    transform: rotate(0deg);
+  }
+  56% {
+    transform: rotate(-2deg);
+  }
+  58% {
+    transform: rotate(0deg);
+  }
+  60% {
+    transform: rotate(-2deg);
+  }
+  80% {
+    transform: rotate(0deg);
+  }
+  85% {
+    transform: rotate(0deg);
+  }
+  90% {
+    transform: rotate(0deg);
+  }
+  95% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.cell-hover:hover .section-3-link {
+  animation: cell-link 1.2s linear forwards, none;
+}
+
+@keyframes cell-link {
+  0% {
+    left: 450px;
+    opacity: 0;
+  }
+  50% {
+    left: 250px;
+    opacity: 0;
+  }
+  100% {
+    left: 450px;
+    opacity: 1;
+  }
+}
+
+.section-3-img {
+  position: relative;
+}
+
+.cell-hover:hover .cell-line {
+  animation: cell-line 1s linear 0.8s forwards, none;
+}
+
+@keyframes cell-line {
+  0% {
+    height: 0px;
+  }
+  50% {
+    height: 0px;
+  }
+  100% {
+    height: 110px;
+    opacity: 1;
+  }
+}
+
+.cell-line {
+  position: absolute;
+  opacity: 0;
+  bottom: 220px;
+  left: 510px;
+  width: 1px;
+  height: 110px;
+  background-color: rgb(255, 0, 0);
+}
+
+.section-3-link {
+  position: absolute;
+  bottom: 190px;
+  left: 450px;
+  opacity: 0;
+  color: rgb(190, 181, 181);
+}
