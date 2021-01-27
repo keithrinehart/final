@@ -1,0 +1,31 @@
+.section-one-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+  box-shadow: -100px;
+  background-color: #111;
+  overflow: hidden;
+  z-index: 90;
+  box-shadow: 0 20px 70px 10px #171c27 inset;
+}
+
+.section1home-bkg {
+  background-image: url(../img/zombie.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.img-cover {
+  background-color: #171c27f1;
+  height: 947px;
+}
+
+.section-one-h1 {
+  padding-top: 250px;
+  color: rgb(255, 0, 0);
+  text-align: center;
+}
