@@ -5,7 +5,7 @@ import {
   Switch,
   Redirect,
 } from "react-router-dom";
-import "aos/dist/aos.css";
+
 import Home from "./Home";
 import Galleries from "./Galleries";
 import Gallery from "./Gallery";
