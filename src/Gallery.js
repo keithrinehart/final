@@ -10,13 +10,13 @@ function Gallery() {
 
   return (
     <div className="Gallery">
-      <Hamburger />
       <Title/>
       <UploadForm />
       <ImageGrid setSelectedImg={setSelectedImg} />
       { selectedImg && (
       <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg} />
       )}
+      <Hamburger />
     </div>
   );
 }
