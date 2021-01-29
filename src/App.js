@@ -7,9 +7,9 @@ import {
 } from "react-router-dom";
 import "aos/dist/aos.css";
 import Home from "./Home";
-import About from "./About";
+import Galleries from "./Galleries";
 import Gallery from "./Gallery";
-import Contact from "./Contact";
+//import Contact from "./Contact";
 
 function App() {
   return (
@@ -17,9 +17,12 @@ function App() {
       <Router>
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/gallery" component={Gallery} />
+          <Route path="/galleries" component={Galleries} />
+          <Route path="/newgallery" component={Gallery} />
+{/*}
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
+*/}
           <Redirect to="/" />
         </Switch>
       </Router>

@@ -21,7 +21,7 @@ function Home() {
             Lorem ipsum dolor sit amet. Lorem ipsum invidunt ut labore et
           </p>
           <div className="p-line2"></div>
-          <img className="face-img" src={Face}></img>
+          <img className="face-img" alt="face" src={Face} />
         </div>
       </div>
       <Section2Home />
