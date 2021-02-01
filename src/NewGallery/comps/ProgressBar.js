@@ -1,6 +1,7 @@
-import React, { useEffect } from 'react';
-import useStorage from '../hooks/useStorage';
-import { motion } from 'framer-motion'; //framer.com/motion/
+import React, { useEffect } from "react";
+import useStorage from "../hooks/useStorage";
+import { motion } from "framer-motion"; //framer.com/motion/
+import "../css/imagegrid.css";
 
 const ProgressBar = ({ file, setFile }) => {
   const { progress, url } = useStorage(file);
@@ -12,11 +13,12 @@ const ProgressBar = ({ file, setFile }) => {
   }, [url, setFile]);
 
   return (
-    <motion.div className="progress-bar"
+    <motion.div
+      className="progress-bar"
       initial={{ width: 0 }}
-      animate={{ width: progress + '%' }}
+      animate={{ width: progress + "%" }}
     ></motion.div>
   );
-} 
+};
 
 export default ProgressBar;
