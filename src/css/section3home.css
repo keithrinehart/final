@@ -1,7 +1,8 @@
 .section-3-container {
   width: 100%;
-  height: 500px;
+  height: 740px;
   z-index: 93;
+  background-color: #171c27;
 }
 
 .sec-3-inner-container {
@@ -161,17 +162,40 @@
   height: 110px;
   background-color: rgb(255, 0, 0);
 }
+.cell-line2 {
+  position: absolute;
+  opacity: 0;
+  bottom: -100px;
+  left: 280px;
+  width: 1px;
+  padding: 0 0 10px 0;
+  background-color: rgb(255, 0, 0);
+}
+
+.cell-hover:hover .cell-line2 {
+  animation: cell-line2 1s linear 1.5s forwards, none;
+}
+
+@keyframes cell-line2 {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 220px;
+    opacity: 1;
+  }
+}
 
 .section-3-link {
   position: absolute;
-  bottom: 190px;
+  bottom: 180px;
   left: 450px;
   opacity: 0;
-  color: rgb(190, 181, 181);
+  color: rgb(168, 166, 166);
 }
 
 .section-3-link:hover {
-  color: rgb(255, 255, 240);
+  color: #fff;
   font-size: 21px;
   letter-spacing: 1px;
   transition: 0.4s;

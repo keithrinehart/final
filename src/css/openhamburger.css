@@ -72,7 +72,7 @@ li {
   opacity: 0;
   background-color: rgba(255, 0, 0, 0.452);
   z-index: -1;
-  animation: menubox 0.3s linear 1s forwards, none;
+  animation: menubox 0.4s linear 1.5s forwards, none;
 }
 
 @keyframes menubox {
@@ -88,63 +88,50 @@ li {
 
 .gall-box {
   position: relative;
-  top: -82px;
-  left: 215px;
+  top: -83px;
+  left: 300px;
   width: 40px;
   height: 30px;
-  border-radius: 0 10px 10px 0;
+  border-radius: 10px 0px 0px 10px;
   opacity: 0;
   background-color: rgba(255, 0, 0, 0.452);
   z-index: -1;
-  animation: gallbox 0.3s linear 1.2s forwards, none;
+  animation: gallbox 0.4s linear 1.7s forwards, none;
 }
 
 @keyframes gallbox {
+  0% {
+    left: 400px;
+    opacity: 0.2;
+  }
+  100% {
+    left: 143px;
+    opacity: 1;
+  }
+}
+
+.create-gall-box {
+  position: relative;
+  top: -82px;
+  left: 157px;
+  width: 40px;
+  height: 30px;
+  border-radius: 0px 10px 10px 0px;
+  opacity: 0;
+  background-color: rgba(255, 0, 0, 0.452);
+  z-index: -1;
+  animation: create-gall-box 0.4s linear 1.6s forwards, none;
+}
+
+@keyframes create-gall-box {
   0% {
     left: 0px;
     opacity: 0.2;
   }
   100% {
-    left: 215px;
+    left: 248px;
     opacity: 1;
   }
-}
-
-.about-box {
-  position: relative;
-  top: -83px;
-  left: 157px;
-  width: 40px;
-  height: 30px;
-  border-radius: 10px 0 0 10px;
-  opacity: 0;
-  background-color: rgba(255, 0, 0, 0.452);
-  z-index: -1;
-  animation: aboutbox 0.3s linear 1.4s forwards, none;
-}
-
-@keyframes aboutbox {
-  0% {
-    left: 350px;
-    opacity: 0.2;
-  }
-  100% {
-    left: 157px;
-    opacity: 1;
-  }
-}
-
-.contact-box {
-  position: relative;
-  top: -84px;
-  left: 150px;
-  width: 40px;
-  height: 30px;
-  border-radius: 10px 0 0 10px;
-  opacity: 0;
-  background-color: rgba(255, 0, 0, 0.452);
-  z-index: -1;
-  animation: contactbox 0.3s linear 1.6s forwards, none;
 }
 
 @keyframes contactbox {
@@ -165,7 +152,7 @@ li {
   text-decoration: none;
   top: -65px;
   color: rgb(255, 0, 0);
-  animation: ham-lightshow 4s linear;
+  animation: ham-lightshow 0.3s linear 1s forwards, none;
 }
 
 @keyframes ham-lightshow {
@@ -185,4 +172,13 @@ li {
     width: 400px;
     opacity: 1;
   }
+}
+
+.create-gal {
+  text-align: center;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  max-width: 180px;
+  min-width: 180px;
 }
