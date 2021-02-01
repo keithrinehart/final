@@ -21,6 +21,7 @@ function Section2Home() {
               <div className="float-line"></div>
             </Link>
           </ul>
+          <div className="section-two-redlineOne"></div>
         </div>
       </div>
     </div>

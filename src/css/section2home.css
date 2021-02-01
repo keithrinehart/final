@@ -1,7 +1,7 @@
 .section2home-container {
   position: relative;
   width: 100%;
-  height: 1300px;
+  height: 1000px;
   padding-top: 400px;
   box-shadow: 0 -60px 80px 10px #171c27, 0 0px 80px 20px #171c27 inset,
     0 100px 90px 5px #171c27;
@@ -60,6 +60,11 @@
   font-size: 20px;
 }
 
+.float-li-about:hover {
+  color: rgb(173, 168, 168);
+  transition: 0.4s;
+}
+
 .float-line {
   position: relative;
   width: 330px;
@@ -74,6 +79,16 @@
 .float-ul-about:hover .float-line {
   width: 220px;
   transition: 1.1s;
+}
+
+.section-two-redlineOne {
+  position: absolute;
+  bottom: 650px;
+  width: 1px;
+  height: 320px;
+  left: 1170px;
+  background-color: rgb(255, 0, 0);
+  z-index: 100;
 }
 
 @media screen and (max-width: 1708px) and (min-width: 1600px) {
@@ -125,6 +140,11 @@
   .float-ul-about:hover .float-line {
     width: 200px;
     transition: 1.1s;
+  }
+
+  .section-two-redlineOne {
+    bottom: 590px;
+    left: 1000px;
   }
 }
 
@@ -180,6 +200,13 @@
   }
 }
 
+@media screen and (max-width: 1599px) and (min-width: 1500px) {
+  .section-two-redlineOne {
+    bottom: 570px;
+    left: 1000px;
+  }
+}
+
 @media screen and (max-width: 1500px) and (min-width: 1400px) {
   .flex {
     left: 210px;
@@ -225,6 +252,11 @@
   .float-ul-about:hover .float-line {
     width: 200px;
     transition: 1.1s;
+  }
+
+  .section-two-redlineOne {
+    bottom: 520px;
+    left: 920px;
   }
 }
 
@@ -274,6 +306,11 @@
     width: 200px;
     transition: 1.1s;
   }
+
+  .section-two-redlineOne {
+    bottom: 520px;
+    left: 920px;
+  }
 }
 
 @media screen and (max-width: 1300px) and (min-width: 1200px) {
@@ -321,5 +358,10 @@
   .float-ul-about:hover .float-line {
     width: 200px;
     transition: 1.1s;
+  }
+
+  .section-two-redlineOne {
+    bottom: 500px;
+    left: 820px;
   }
 }
