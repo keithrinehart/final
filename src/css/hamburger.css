@@ -27,7 +27,7 @@
   border-radius: 30px;
   width: 8px;
   height: 2px;
-  background-color: ivory;
+  background-color: rgb(255, 0, 0);
   margin: 5px 0;
   z-index: 11;
 }
@@ -37,7 +37,7 @@
   border-radius: 30px;
   width: 14px;
   height: 2px;
-  background-color: ivory;
+  background-color: rgb(255, 0, 0);
   margin: 5px 0;
   z-index: 11;
 }
@@ -47,7 +47,7 @@
   border-radius: 30px;
   width: 24px;
   height: 2px;
-  background-color: ivory;
+  background-color:rgb(255, 0, 0);
   margin: 5px 0;
   z-index: 11;
 }

@@ -11,11 +11,17 @@ function OpenHamburger() {
           <div className="home-box"></div>
           <p className="ham-line">_</p>
         </Link>
-        <Link to="/gallery">
+        <Link to="/galleries">
           <li className="ham-li">Galleries</li>
           <div className="gall-box"></div>
-          <p className="ham-line">_</p>
+          <p className="ham-line">New Gallery</p>
         </Link>
+        <Link to="/newgallery">
+          <li className="ham-li">Create a Gallery</li>
+          <div className="gall-box"></div>
+          <p className="ham-line"></p>
+        </Link>
+{/*
         <Link to="/about">
           <li className="ham-li">About</li>
           <div className="about-box"></div>
@@ -26,6 +32,7 @@ function OpenHamburger() {
           <div className="contact-box"></div>
           <p className="ham-line">_</p>
         </Link>
+*/}        
       </ul>
     </div>
   );
