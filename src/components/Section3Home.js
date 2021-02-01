@@ -43,7 +43,8 @@ function Section3Home() {
             alt="laptop with a tablet and cellphone"
           ></img>
           <div className="cell-line"></div>
-          <Link to="/gallery">
+          <div className="cell-line2"></div>
+          <Link to="/newgallery">
             <h3 className="section-3-link">Find out how</h3>
           </Link>
         </div>
