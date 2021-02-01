@@ -1,51 +1,50 @@
-
 /*@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');*/
 
-
-:root{
-  --primary: #efb6b2;
+:root {
+  --primary: rgb(255, 0, 0);
   --secondary: #4e4e4e;
-  --error: #ff4a4a;
+  --error: #ff0000;
 }
 
 /* base styles & title */
-body{
+body {
   font-family: "Noto Serif";
   color: var(--secondary);
 }
-.Gallery{
+.Gallery {
   max-width: 960px;
   margin: 0 auto;
 }
-.title h1{
+.title h1 {
   color: var(--primary);
   font-size: 3rem;
   letter-spacing: 2px;
   font-weight: normal;
 }
-.title h2, .title p{
+.title h2,
+.title p {
   text-align: center;
 }
-.title h2{
+.title h2 {
   margin-top: 60px;
   font-size: 2.6rem;
 }
 
 /* upload form styles */
-form{
+form {
   margin: 30px auto 10px;
   text-align: center;
 }
-label input{
+label input {
   height: 0;
   width: 0;
   opacity: 0;
 }
-label{
+label {
   display: block;
-  width: 30px;
-  height: 30px;
-  border: 1px solid var(--primary);
+  width: 48px;
+  height: 48px;
+  border: 3px solid rgba(255, 0, 0, 0.856);
   border-radius: 50%;
   margin: 10px auto;
   line-height: 30px;
@@ -53,33 +52,130 @@ label{
   font-weight: bold;
   font-size: 24px;
 }
-label:hover{
+
+.form-button {
+  position: relative;
+  top: -27px;
+  left: 0px;
+  font-size: 13px;
+  color: ivory;
+}
+
+label:hover {
   background: var(--primary);
   color: white;
+  transition: 2.5s;
 }
-.output{
+
+label:hover .form-button {
+  font-size: 30px;
+  top: -23px;
+  left: -25px;
+  transition: 0.8s;
+}
+
+.form-line {
+  position: relative;
+  top: -20px;
+  left: 20px;
+  width: 1px;
+  height: 0px;
+  background-color: rgb(255, 0, 0);
+}
+
+label:hover .form-line {
+  height: 50px;
+  opacity: 0;
+  transition: 0.6;
+  animation: formline 1s linear 0.4s forwards, none;
+}
+
+@keyframes formline {
+  0% {
+    height: 0px;
+  }
+  50% {
+    height: 0px;
+  }
+  100% {
+    height: 80px;
+    opacity: 1;
+  }
+}
+
+.form-line-word {
+  position: relative;
+  top: -90px;
+  left: -15px;
+  opacity: 0;
+  font-size: 20px;
+}
+
+label:hover .form-line-word {
+  animation: form-line-word 0.3s linear 1.4s forwards, none;
+}
+
+@keyframes form-line-word {
+  0% {
+    top: -90px;
+    left: 0px;
+    opacity: 0;
+  }
+  100% {
+    top: -90px;
+    left: -15px;
+    opacity: 1;
+  }
+}
+
+.form-line-word2 {
+  position: relative;
+  top: -90px;
+  left: 23px;
+  opacity: 0;
+  font-size: 22px;
+}
+
+label:hover .form-line-word2 {
+  animation: form-line-word2 0.3s linear 1.8s forwards, none;
+}
+
+@keyframes form-line-word2 {
+  0% {
+    top: -90px;
+    left: 5px;
+    opacity: 0;
+  }
+  100% {
+    top: -90px;
+    left: 23px;
+    opacity: 1;
+  }
+}
+
+.output {
   height: 60px;
   font-size: 0.8rem;
 }
-.error{
+.error {
   color: var(--error);
 }
 
 /* progress bar styles */
-.progress-bar{
+.progress-bar {
   height: 5px;
   background: var(--primary);
   margin-top: 20px;
 }
 
 /* image grid styles */
-.img-grid{
+.img-grid {
   margin: 20px auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 40px;
 }
-.img-wrap{
+.img-wrap {
   overflow: hidden;
   height: 0;
   padding: 50% 0;
@@ -87,7 +183,7 @@ label:hover{
   position: relative;
   opacity: 0.8;
 }
-.img-wrap img{
+.img-wrap img {
   min-width: 100%;
   min-height: 100%;
   max-width: 150%;
@@ -97,19 +193,19 @@ label:hover{
 }
 
 /* modal styles */
-.backdrop{
+.backdrop {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
 }
-.backdrop img{
+.backdrop img {
   display: block;
   max-width: 60%;
   max-height: 80%;
   margin: 60px auto;
-  box-shadow: 3px 5px 7px rgba(0,0,0,0.5);
-  border: 3px solid white;
+  box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgb(255, 0, 0);
 }
