@@ -1,7 +1,6 @@
 .section-3-container {
   width: 100%;
   height: 500px;
-  padding-top: 100px;
   z-index: 93;
 }
 
@@ -14,6 +13,16 @@
   padding: 100px 0 100px 0;
 }
 
+.section-3-redlineOne {
+  position: relative;
+  width: 1px;
+  height: 420px;
+  left: 350px;
+  bottom: 60px;
+  background-color: rgb(255, 0, 0);
+  z-index: 100;
+}
+
 #section-3-h3 {
   position: relative;
   color: rgba(255, 255, 255, 0);
@@ -21,12 +30,11 @@
   left: 50%;
   font-size: 35px;
   transform: translate(-50%, -50%);
-  transition: 0.5s ease-out;
   -webkit-text-stroke: 1px rgba(255, 0, 0, 0.6);
 }
 
 .cell-hover:hover .section-3-img {
-  cursor: progress;
+  cursor: pointer;
   animation: cell 1.5s linear infinite, ease-in-out;
 }
 
@@ -103,6 +111,11 @@
   animation: cell-link 1.2s linear forwards, none;
 }
 
+.cell-img {
+  position: absolute;
+  z-index: 100;
+}
+
 @keyframes cell-link {
   0% {
     left: 450px;
@@ -155,4 +168,11 @@
   left: 450px;
   opacity: 0;
   color: rgb(190, 181, 181);
+}
+
+.section-3-link:hover {
+  color: rgb(255, 255, 240);
+  font-size: 21px;
+  letter-spacing: 1px;
+  transition: 0.4s;
 }

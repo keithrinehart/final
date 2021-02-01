@@ -19,6 +19,7 @@ body {
   align-items: center;
   justify-content: center;
   color: ivory;
+
   background-image: -webkit-linear-gradient(
     -50deg,
     #171c27,
@@ -143,6 +144,28 @@ body {
   letter-spacing: 5px;
   line-height: 30px;
   z-index: 5;
+}
+
+.home-redlineOne {
+  position: absolute;
+  top: 600px;
+  left: 170px;
+  width: 1px;
+  height: 0px;
+  opacity: 0;
+  background-color: rgb(255, 0, 0);
+  animation: home-redline 5s linear 5s forwards, none;
+}
+
+@keyframes home-redline {
+  0% {
+    height: 0px;
+    opacity: 1;
+  }
+  100% {
+    height: 560px;
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 1738px) and (min-width: 1585px) {
