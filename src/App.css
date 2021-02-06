@@ -272,7 +272,7 @@ body {
   font-family: "Cinzel Decorative", cursive;
   opacity: 1;
   z-index: 93;
-  transition: transform 450ms ease-in;
+  transition: transform 780ms ease-in;
 }
 .landing-hover-sec1:hover .home-hover-h2-1 {
   transform: translate(1200px, 0px);
@@ -365,7 +365,7 @@ body {
 
 .home-h2-cover3 {
   position: absolute;
-  left: 1220px;
+  left: 1240px;
   top: 100px;
   width: 120px;
   height: 70px;
@@ -376,7 +376,7 @@ body {
 .home-hover-h2-4 {
   position: absolute;
   margin: 0 auto;
-  left: 1225px;
+  left: 1245px;
   top: 95px;
   color: ivory;
   font-size: 65px;
@@ -387,7 +387,7 @@ body {
 }
 
 .landing-hover-sec1:hover .home-hover-h2-4 {
-  transform: translate(-387px, 0px);
+  transform: translate(-407px, 0px);
   transition-delay: 0.5s;
   opacity: 1;
   z-index: 91;
