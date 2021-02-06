@@ -1,6 +1,6 @@
 import React from "react"
 import Signup from "./Auth/compo/Signup"
-import { Container } from "react-bootstrap" // Container having a CSS effect on the component, possible to remove it within return ()
+import { Container } from "react-bootstrap" // Container having a CSS effect on the component that is not so good, possible to remove it within return ()
 import { AuthProvider } from "./Auth/contexts/AuthContext"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Dashboard from "./Auth/compo/Dashboard"
@@ -14,7 +14,7 @@ function Auth() {
 
     <Container
       className="d-flex align-items-center justify-content-center"
-      style={{ minHeight: "50vh" }}
+      style={{ minHeight: "110vh" }}
     >
     
     <div className="w-100" style={{ maxWidth: "400px" }}>
