@@ -5,11 +5,11 @@ import {
   Switch,
   Redirect,
 } from "react-router-dom";
-
 import Home from "./Home";
 import Galleries from "./Galleries";
 import Gallery from "./Gallery";
 import Auth from "./Auth";
+import About from "./About";
 //import Contact from "./Contact";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/galleries" component={Galleries} />
-          <Route path="/newgallery" component={Auth, Gallery} />
+          <Route path="/newgallery" component={Gallery} />
           <Route path="/register" component={Auth} />
 {/*}
           <Route path="/about" component={About} />

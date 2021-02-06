@@ -1,10 +1,14 @@
 import React, { useEffect, useRef } from "react";
 import { TweenMax, Power3 } from "gsap";
+import gsap from "gsap";
+import { Link } from "react-scroll";
 import Face from "./img/face.jpg";
 import Hamburger from "./components/Hamburger";
 import Section1Home from "./components/Section1Home";
 import Section2Home from "./components/Section2Home";
 import Section3Home from "./components/Section3Home";
+import HomeImg1 from "./img/img-1.jpg";
+import HomeImg4 from "./img/img-4.jpg";
 
 function Home() {
   let headingh1 = useRef(null);
@@ -66,9 +70,61 @@ function Home() {
               src={Face}
               alt="graffiti painted face"
             ></img>
+            <div className="home-redlineOne"></div>
           </div>
         </div>
+
+        {/*________IMG-HOVER-SECTION__________----------------------*/}
+        <div className="landing-hover-sec1">
+          <div className="img-cover1"></div>
+          <img
+            className="home-hover-img1"
+            src={HomeImg1}
+            alt=""
+            width="250px"
+          ></img>
+          <div className="home-sec1-redline1"></div>
+          <div className="home-sec1-redline2"></div>
+          <div className="home-sec1-redline3"></div>
+          <h2 className="home-hover-h2-1">
+            I<span className="home-hover-h2-1-span1">t</span>
+            <span className="home-hover-h2-1-span3">S</span>
+            <span className="home-hover-h2-1-span2">tArts</span>
+          </h2>
+          <div className="home-h2-cover1"></div>
+          <h2 className="home-hover-h2-2">With</h2>
+          <div className="home-h2-cover2"></div>
+          <h2 className="home-hover-h2-3">
+            A<span className="home-h2-3-span">n</span>
+          </h2>
+          <div className="home-h2-cover3"></div>
+          <h2 className="home-hover-h2-4">
+            I<span className="home-h2-3-span2">deA</span>
+          </h2>
+
+          {/*****************IMG-HOVER-SECTION-2********************/}
+        </div>
+        <div className="landing-hover-sec2">
+          <div className="img-cover2"></div>
+          <img
+            className="home-hover-img2"
+            src={HomeImg4}
+            alt=""
+            width="250px"
+          ></img>
+          <div className="home-sec2-redline1"></div>
+          <div className="home-sec2-redline2"></div>
+          <div className="home-sec2-redline3"></div>
+          <div className="home-hover-h2-sec2-cover"></div>
+          <h2 className="home-hover2-h2-1">
+            <span className="home-hover2-h2-1-span">WITH</span>
+          </h2>
+          <h2 className="home-hover2-h2-2">YOU</h2>
+        </div>
+        <div className="landing-hover-sec3"></div>
       </div>
+
+      {/*----------COMPONENTS-SECTION------------*/}
       <Hamburger />
       <Section1Home />
       <Section2Home />

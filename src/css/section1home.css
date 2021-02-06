@@ -25,7 +25,16 @@
 }
 
 .section-one-h1 {
-  padding-top: 250px;
-  color: rgb(255, 0, 0);
+  /*padding-top: 250px;
+  color: rgb(255, 0, 0);*/
   text-align: center;
+  position: relative;
+  color: rgba(255, 255, 255, 0);
+  top: 23%;
+  left: 50%;
+  font-size: 35px;
+  font-weight: 900;
+  transform: translate(-50%, -50%);
+
+  -webkit-text-stroke: 2px rgba(255, 0, 0, 0.6);
 }

@@ -6,7 +6,7 @@ function Section1Home() {
     <div className="section-one-container">
       <div className="section1home-bkg">
         <div className="img-cover">
-          <h1 className="section-one-h1">A Place To Share Ideas</h1>
+          <h1 className="section-one-h1">A Home For Artist</h1>
         </div>
       </div>
     </div>
