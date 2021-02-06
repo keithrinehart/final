@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { TweenMax, Power3 } from "gsap";
 import gsap from "gsap";
+import { Link } from "react-scroll";
 import Face from "./img/face.jpg";
 import Hamburger from "./components/Hamburger";
 import Section1Home from "./components/Section1Home";
