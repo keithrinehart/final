@@ -32,6 +32,9 @@ function Section3Home() {
   return (
     <div className="section-3-container">
       <div ref={ref} className="sec-3-inner-container">
+        <div className="sec3-line1"></div>
+        <div className="sec3-line2"></div>
+        <div className="sec3-line3"></div>
         <div className="section-3-redlineOne"></div>
         <h3 id="section-3-h3">
           Upload &bull; Share &bull; Inspire &bull; Create &bull; Repeat

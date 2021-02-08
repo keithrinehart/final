@@ -65,7 +65,7 @@ li {
 
 .home-box {
   position: relative;
-  top: -79px;
+  top: -80px;
   left: 200px;
   width: 25px;
   height: 25px;
@@ -89,15 +89,15 @@ li {
 
 .gall-box {
   position: relative;
-  top: -81px;
-  left: 300px;
+  top: -83px;
+  left: 311px;
   width: 25px;
   height: 25px;
   border-radius: 5px;
   opacity: 0;
   background-color: rgba(255, 0, 0, 0.452);
   z-index: -1;
-  animation: gallbox 0.4s linear 1.7s forwards, none;
+  animation: gallbox 0.6s linear 1.7s forwards, none;
 }
 
 @keyframes gallbox {
@@ -106,14 +106,14 @@ li {
     opacity: 0.2;
   }
   100% {
-    left: 67px;
+    left: 68px;
     opacity: 1;
   }
 }
 
 .create-gall-box {
   position: relative;
-  top: -79px;
+  top: -80px;
   left: 157px;
   width: 25px;
   height: 25px;
@@ -133,6 +133,19 @@ li {
     left: 145px;
     opacity: 1;
   }
+}
+
+.gall-box-2 {
+  position: relative;
+  top: -83px;
+  left: 311px;
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  opacity: 0;
+  background-color: rgba(255, 0, 0, 0.452);
+  z-index: -1;
+  animation: gallbox 0.8s linear 1.7s forwards, none;
 }
 
 @keyframes contactbox {

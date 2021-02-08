@@ -70,7 +70,7 @@
   position: absolute;
   text-align: center;
   left: 1140px;
-  top: 42px;
+  top: 35px;
   font-size: 95px;
   font-weight: 600;
   font-family: "Cinzel Decorative", cursive;
@@ -91,7 +91,7 @@
   display: flex;
   flex-direction: row;
   position: relative;
-  top: 334px;
+  top: 310px;
   left: 710px;
 }
 
@@ -4771,10 +4771,12 @@
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   font-size: 20px;
+  text-decoration: none;
 }
 
 .float-li-about:hover {
   color: rgb(173, 168, 168);
+  text-decoration: none;
   transition: 0.4s;
 }
 

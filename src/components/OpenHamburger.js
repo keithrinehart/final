@@ -25,9 +25,10 @@ function OpenHamburger() {
 
         {/*<Link to="/register">
           <li className="ham-li">Register</li>
-          <div className="gall-box"></div>
+          <div className="gall-box-2"></div>
           <p className="ham-line"></p>
         </Link>
+        
         <Link to="/about">
           <li className="ham-li">About</li>
           <div className="about-box"></div>
