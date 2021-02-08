@@ -19,7 +19,7 @@ const app = firebase.initializeApp({
 
 const projectStorage = firebase.storage(); // interaction with storage service at the backend
 const projectFirestore = firebase.firestore(); // interaction with firestore database
-const projectAuth = firebase.auth();
+//const projectAuth = firebase.auth();
 const timestamp = firebase.firestore.FieldValue.serverTimestamp;
 
 export { projectStorage, projectFirestore, timestamp };

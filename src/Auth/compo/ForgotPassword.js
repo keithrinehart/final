@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react"
 import { Form, Button, Card, Alert } from "react-bootstrap"
 import { useAuth } from "../contexts/AuthContext"
 import { Link } from "react-router-dom"
+import { Container } from "react-bootstrap" // Container having a CSS effect on the component that is not so good
 
 export default function ForgotPassword() {
   const emailRef = useRef()
@@ -28,6 +29,9 @@ export default function ForgotPassword() {
 
   return (
     <>
+    <Container className="d-flex align-items-center justify-content-center"
+               style={{ minHeight: "110vh" }} >
+              <div className="w-100" style={{ maxWidth: "400px" }}></div>
       <Card>
         <Card.Body>
           <h2 className="text-center mb-4">Password Reset</h2>
@@ -50,6 +54,7 @@ export default function ForgotPassword() {
       <div className="w-100 text-center mt-2">
         Need an account? <Link to="/signup">Sign Up</Link>
       </div>
+      </Container>
     </>
   )
 }
