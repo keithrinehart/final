@@ -14,6 +14,18 @@
   padding: 100px 0 100px 0;
 }
 
+/*.sec3-line1 {
+  position: relative;
+  width: 5px;
+  height: 200px;
+  background-color: rgb(255, 0, 0);
+  z-index: 100;
+}*/
+.sec3-line2 {
+}
+.sec3-line3 {
+}
+
 .section-3-redlineOne {
   position: relative;
   width: 1px;
