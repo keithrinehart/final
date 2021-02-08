@@ -4,6 +4,7 @@ import UploadForm from './NewGallery/comps/UploadForm';
 import ImageGrid from './NewGallery/comps/ImageGrid';
 import Modal from './NewGallery/comps/Modal';
 import Hamburger from "./components/Hamburger";
+import Dashboard from "./Auth/compo/Dashboard";
 
 function Gallery() {
   const [selectedImg, setSelectedImg] = useState(null);
@@ -11,6 +12,7 @@ function Gallery() {
   return (
     <div className="Gallery">
       <Title/>
+      <Dashboard/>
       <UploadForm />
       <ImageGrid setSelectedImg={setSelectedImg} />
       { selectedImg && (

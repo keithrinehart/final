@@ -27,7 +27,7 @@ function App() {
         <Switch> {/* which Route are we currently on */}
           <Route exact path="/" exact component={Home} />
           <Route path="/galleries" component={Galleries} />
-          <Route path="/newgallery" component={Gallery} />
+          <PrivateRoute path="/newgallery" component={Gallery} />
           {/*<Redirect to="/" />*/}
           
           {/*<AuthProvider>*/}
