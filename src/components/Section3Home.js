@@ -37,7 +37,10 @@ function Section3Home() {
         <div className="sec3-line3"></div>
         <div className="section-3-redlineOne"></div>
         <h3 id="section-3-h3">
-          Upload &bull; Share &bull; Inspire &bull; Create &bull; Repeat
+          Upload <span className="section-three-points">&bull;</span> Share{" "}
+          <span className="section-three-points">&bull;</span> Inspire{" "}
+          <span className="section-three-points">&bull;</span> Create{" "}
+          <span className="section-three-points">&bull;</span> Repeat
         </h3>
         <div className="cell-hover">
           <img

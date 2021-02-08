@@ -1,6 +1,6 @@
 .section-3-container {
   width: 100%;
-  height: 740px;
+  height: 1212px;
   z-index: 93;
   background-color: #171c27;
 }
@@ -42,10 +42,15 @@
   margin: 0 auto;
   padding-bottom: 50px;
   text-align: center;
-  color: rgb(255, 0, 0);
+  color: ivory;
   font-size: 35px;
+  font-family: "Cinzel Decorative", cursive;
   letter-spacing: 2px;
   word-spacing: 5px;
+}
+
+.section-three-points {
+  color: rgb(255, 0, 0);
 }
 
 .cell-hover:hover .section-3-img {
@@ -202,11 +207,12 @@
   bottom: 180px;
   left: 650px;
   opacity: 0;
+  font-size: 18px;
   color: rgb(168, 166, 166);
 }
 
 .section-3-link:hover {
-  color: #fff;
+  color: ivory;
   font-size: 21px;
   letter-spacing: 1px;
   transition: 0.4s;
