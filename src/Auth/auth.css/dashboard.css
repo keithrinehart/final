@@ -1,0 +1,35 @@
+.dash-card {
+  text-align: center;
+  color: ivory;
+  background-color: #171c27;
+  border: 1px solid rgb(255, 0, 0);
+}
+
+.btn {
+  position: relative;
+  color: ivory;
+  border-radius: 2px;
+  font-weight: 600;
+  background-color: rgb(224, 7, 7);
+  border: 1px solid ivory;
+}
+
+.btn:hover {
+  color: rgb(252, 0, 0);
+  border: 1px solid ivory;
+  transition: 0.3s;
+  background-color: #171c27;
+  border: 1px solid red;
+}
+
+.dash-btn-1 {
+  bottom: 8px;
+  left: 5px;
+}
+
+.dash-btn-2 {
+  top: 40px;
+}
+
+.dash-btn-2:hover {
+}
