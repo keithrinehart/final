@@ -85,9 +85,8 @@
 
 .section2-hover-inner-container:hover .sec2-hover-p2 {
   transform: translate(107px, 0px);
-
   color: ivory;
-  transition: 0.5s;
+  transition: 1s;
 }
 
 .sec2-hover-flex-row-container {

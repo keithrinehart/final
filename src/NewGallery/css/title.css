@@ -1,0 +1,33 @@
+.title-h2 {
+  position: relative;
+  text-align: center;
+  top: 20px;
+  left: -80px;
+  padding-top: 100px;
+  font-family: "Cinzel Decorative", cursive;
+  color: red;
+}
+
+.title-h2-span {
+  font-size: 60px;
+}
+
+.title-h2-2 {
+  position: relative;
+  text-align: center;
+  top: -25px;
+  left: 60px;
+  font-family: "Cinzel Decorative", cursive;
+  color: ivory;
+}
+
+.title-h2-2-span {
+  font-size: 60px;
+}
+
+.title-p {
+  text-align: center;
+  padding-top: 5px;
+  font-family: "Nunito", sans-serif;
+  color: ivory;
+}
