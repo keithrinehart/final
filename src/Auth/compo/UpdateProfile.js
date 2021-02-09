@@ -85,8 +85,10 @@ export default function UpdateProfile() {
           </Card.Body>
         </Card>
         <div className="form-btn-2">
-          <p className="form-p">Click cancel to go back to homepages</p>
-          <Link to="/">Cancel</Link>
+          <p className="form-p">Click cancel to go back to homepage</p>
+          <Link className="update-link-cancel" to="/">
+            Cancel
+          </Link>
         </div>
       </Container>
     </>
