@@ -33,31 +33,49 @@ export default function Login() {
         className="d-flex align-items-center justify-content-center"
         style={{ minHeight: "110vh" }}
       >
-        <div className="w-100" style={{ maxWidth: "300px" }}></div>
+        <div className="w-100" style={{ maxWidth: "400px" }}></div>
         <Card className="card-login">
           <Card.Body className="card-body-login">
-            <h2 className="text-center mb-4">Log In</h2>
+            <h2 id="login-h2" className="text-center mb-4">
+              Log <span className="login-span">In</span>
+            </h2>
             {error && <Alert variant="danger">{error}</Alert>}
             <Form className="form-login" onSubmit={handleSubmit}>
-              <Form.Group className="form-group-login" id="email">
-                <Form.Label>Email</Form.Label>
-                <Form.Control type="email" ref={emailRef} required />
+              <Form.Group id="email">
+                <Form.Label className="login-label">Email</Form.Label>
+                <Form.Control
+                  className="login-control"
+                  type="email"
+                  ref={emailRef}
+                  placeholder="JohnDoe@x*#.com"
+                  required
+                />
               </Form.Group>
               <Form.Group id="password">
-                <Form.Label>Password</Form.Label>
-                <Form.Control type="password" ref={passwordRef} required />
+                <Form.Label className="login-group-login"></Form.Label>
+                <Form.Control
+                  type="password"
+                  placeholder="Password"
+                  ref={passwordRef}
+                  required
+                />
               </Form.Group>
               <Button disabled={loading} className="btn w-100" type="submit">
                 Log In
               </Button>
             </Form>
             <div className="btn w-100 text-center mt-3">
-              <Link to="/forgot-password">Forgot Password?</Link>
+              <Link className="login-forgot" to="/forgot-password">
+                Forgot Password?
+              </Link>
             </div>
           </Card.Body>
         </Card>
         <div className="w-100 text-center mt-2">
-          Need an account? <Link to="/signup">Sign Up</Link>
+          Need an account?{" "}
+          <Link className="login-link" to="/signup">
+            Sign Up
+          </Link>
         </div>
       </Container>
     </>
