@@ -11,7 +11,6 @@ body {
   font-family: "Noto Serif";
   color: var(--secondary);
   background-color: #171c27;
-  height: 100vh;
 }
 .Gallery {
   max-width: 960px;

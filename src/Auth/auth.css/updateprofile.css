@@ -41,7 +41,7 @@
 }
 
 .form-label:hover {
-  background-color: #171c27;
+  background-color: #171c2700;
   color: red;
 }
 
@@ -88,7 +88,12 @@
 .update-link-cancel:hover {
   color: rgb(219, 2, 2);
   border: 1px solid rgb(219, 2, 2);
-  background-color: #171c27;
+  background-color: #171c2700;
   transition: 0.3s;
   text-decoration: none;
+}
+
+#pass-label {
+  position: relative;
+  top: 1px;
 }
