@@ -37,7 +37,8 @@ export default function Dashboard() {
       </Card>
       <div className="w-100 text-center mt-2">
         <Button
-          className="dash-btn-2  btn"
+          id="dashboard-logout-btn"
+          className="dash-btn-2 btn"
           variant="link"
           onClick={handleLogout}
         >

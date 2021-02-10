@@ -41,7 +41,7 @@ label input {
 label {
   position: relative;
   display: block;
-  top: 100px;
+  top: 30px;
   width: 48px;
   height: 48px;
   border: 3px solid rgba(255, 0, 0, 0.856);
@@ -69,8 +69,9 @@ label:hover {
 
 label:hover .form-button {
   font-size: 30px;
-  top: -23px;
+  top: -28px;
   left: -25px;
+  cursor: pointer;
   transition: 0.8s;
 }
 

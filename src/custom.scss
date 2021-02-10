@@ -4,6 +4,7 @@ $primary: rgb(223, 0, 0);
 $secondary: rgb(255, 255, 240);
 $dark: #171c27;
 
+// Projects buttons
 .card .btn-primary {
   border-radius: 2px;
 }
@@ -13,6 +14,211 @@ $dark: #171c27;
   border: 1px solid var(--primary);
   background-color: #171c27;
   transition: 0.4s;
+}
+
+// Log-In Page
+.card-login {
+  width: 1000px;
+  min-width: 1000px;
+  box-shadow: 0px 8px 20px 0 rgba(0, 0, 0, 0.41);
+}
+
+.card-body-login {
+  min-width: 300px;
+}
+
+#login-h2 {
+  position: relative;
+  left: 10px;
+}
+
+.login-span {
+  position: relative;
+  top: 32px;
+  left: -40px;
+  font-size: 40px;
+  color: ivory;
+}
+
+.form-label {
+  padding: 0px 0;
+}
+
+.login-group-login {
+  padding: 20px 0;
+}
+
+.login-link {
+  position: relative;
+  top: 30px;
+  left: -80px;
+  font-size: 30px;
+  color: ivory;
+}
+
+.login-link:hover {
+  color: ivory;
+  text-decoration: underline rgb(231, 1, 1);
+  transition: 1s;
+}
+
+.login-forgot {
+  color: var(--primary);
+  font-size: 25px;
+}
+
+.login-forgot:hover {
+  border: 0px solid #171c27;
+  transition: 0.8s;
+  color: ivory;
+  text-decoration: underline rgb(231, 1, 1);
+}
+
+// Sign-Up
+.card-signup {
+  width: 1000px;
+  min-width: 1000px;
+  height: 570px;
+  box-shadow: 0px 8px 20px 0 rgba(0, 0, 0, 0.41);
+}
+
+.card-body-signup {
+  min-width: 300px;
+}
+
+.signup-span {
+  position: relative;
+  top: 32px;
+  left: -25px;
+  font-size: 40px;
+  color: ivory;
+}
+
+.form-label {
+  padding: 0px 0;
+}
+
+.signup-link {
+  position: relative;
+  top: 30px;
+  left: -80px;
+  font-size: 30px;
+  color: ivory;
+}
+
+.signup-link:hover {
+  color: ivory;
+
+  transition: 1s;
+}
+
+.signup-already-have {
+  position: relative;
+  top: 30px;
+  left: -30px;
+  color: ivory;
+  font-size: 25px;
+}
+
+.signup-already-have:hover {
+  border: 0px solid #171c27;
+  transition: 0.8s;
+  color: ivory;
+  text-decoration: underline rgb(231, 1, 1);
+}
+
+.signup-label {
+  position: relative;
+  top: 150px;
+}
+
+#signup-email {
+  position: relative;
+  top: 50px;
+}
+
+#signup-password-control {
+  position: relative;
+  top: 70px;
+}
+
+// Forgotten Password
+
+.card-pass {
+  width: 1000px;
+  min-width: 1000px;
+  box-shadow: 0px 8px 20px 0 rgba(0, 0, 0, 0.41);
+}
+
+.card-body-pass {
+  min-width: 300px;
+}
+
+#pass-h2 {
+  position: relative;
+  font-size: 35px;
+  left: 25px;
+}
+
+.pass-span {
+  position: relative;
+  top: 30px;
+  left: -58px;
+  font-size: 30px;
+  color: ivory;
+}
+
+.form-pass {
+  padding: 0px 0;
+}
+
+.pass-link {
+  position: relative;
+  top: 30px;
+  left: -80px;
+  font-size: 30px;
+  color: ivory;
+}
+
+.pass-link:hover {
+  color: ivory;
+
+  transition: 1s;
+}
+
+.pass-need-account {
+  position: relative;
+  top: 30px;
+  left: -80px;
+  color: ivory;
+  font-size: 28px;
+}
+
+.pass-need-account:hover {
+  border: 0px solid #171c27;
+  transition: 0.8s;
+  color: ivory;
+  text-decoration: underline rgb(231, 1, 1);
+}
+
+.login-pass {
+  font-size: 25px;
+  letter-spacing: 4px;
+  font-weight: 600;
+}
+
+.login-pass:hover {
+  transition: 0.4s;
+  color: ivory;
+  text-decoration: underline rgb(231, 1, 1);
+}
+
+#pass-p {
+  position: relative;
+  left: 20px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 500;
 }
 
 // import bootstrap styles
