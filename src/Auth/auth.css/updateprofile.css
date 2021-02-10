@@ -1,0 +1,99 @@
+.update-container {
+  width: 100%;
+  height: 100vh;
+  background-color: #171c27;
+}
+
+.update-card {
+  position: relative;
+  align-items: center;
+  width: 0px;
+  height: 60%;
+  bottom: 150px;
+  background-color: #171c27;
+}
+
+.text-center {
+  margin-top: 40px;
+  font-family: "Cinzel Decorative", cursive;
+  color: red;
+}
+
+.update-cardbody {
+  position: relative;
+  left: -45px;
+  width: 800px;
+  background-color: #171c27;
+  border-radius: 5px;
+}
+
+.update-form {
+  position: relative;
+  width: 400px;
+}
+
+.form-label {
+  width: 200px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(255, 0, 0);
+}
+
+.form-label:hover {
+  background-color: #171c2700;
+  color: red;
+}
+
+.form-control {
+  border: 2px solid #171c27;
+}
+
+.form-control:hover {
+  border: 2px solid rgb(240, 0, 0);
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.form-btn-1 {
+  position: relative;
+  background-color: var(--primary);
+  top: 100px;
+}
+
+.form-btn-2 {
+  position: relative;
+  top: 290px;
+  left: -175px;
+  text-align: center;
+}
+
+.form-p {
+  top: 50px;
+  text-align: center;
+  position: relative;
+  color: ivory;
+}
+
+.update-link-cancel {
+  position: relative;
+  top: 50px;
+  border-radius: 2px;
+  padding: 4px;
+  border: 1px solid ivory;
+  color: ivory;
+  background-color: rgb(228, 7, 7);
+}
+
+.update-link-cancel:hover {
+  color: rgb(219, 2, 2);
+  border: 1px solid rgb(219, 2, 2);
+  background-color: #171c2700;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+#pass-label {
+  position: relative;
+  top: 1px;
+}

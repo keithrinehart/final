@@ -20,8 +20,8 @@ const UploadForm = () => {
   };
 
   return (
-    <form>
-      <label>
+    <form className="form">
+      <label className="form-labe">
         <input type="file" onChange={handleChange} />{" "}
         {/* allows users to select a file in the computer*/}
         <span className="form-button">Select</span>

@@ -12,12 +12,13 @@
 }
 
 .section1home-bkg {
+  position: relative;
   background-image: url(../img/zombie.jpg);
   background-position: center;
   background-size: cover;
   width: 100%;
   height: 100%;
-  z-index: 100;
+  z-index: 90;
 }
 
 .img-cover-left {
@@ -26,7 +27,7 @@
   height: 100%;
   border-right: 1px solid rgb(255, 0, 0);
   transition: transform 800ms ease-in;
-  transition-delay: 1s;
+  transition-delay: 1.5s;
 }
 
 .section-one-container:hover .img-cover-left {
@@ -41,7 +42,7 @@
   left: 952px;
   border-left: 1px solid rgb(255, 0, 0);
   transition: transform 800ms ease-in;
-  transition-delay: 1s;
+  transition-delay: 1.5s;
 }
 
 .section-one-container:hover .img-cover-right {
@@ -96,6 +97,66 @@
 
 .section-one-span2 {
   font-size: 100px;
+}
+
+.section1-home-img-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  left: -2000px;
+  top: 0px;
+  transition: transform 900ms ease-in;
+}
+
+.section-one-container:hover .section1-home-img-hover {
+  transform: translate(2000px, 0px);
+  transition-delay: 3s;
+}
+
+.section1-home-img-hover2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  left: 2000px;
+  top: 0px;
+  transition: transform 700ms ease-in;
+}
+
+.section-one-container:hover .section1-home-img-hover2 {
+  transform: translate(-2000px, 0px);
+  transition-delay: 4.5s;
+}
+
+.section1-home-img-hover3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  left: -2000px;
+  top: 0px;
+  transition: transform 550ms ease-in;
+}
+
+.section-one-container:hover .section1-home-img-hover3 {
+  transform: translate(2000px, 0px);
+  transition-delay: 5.5s;
+}
+
+.section1-home-img-hover4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  left: 2000px;
+  top: 0px;
+  transition: transform 350ms ease-in;
+}
+
+.section-one-container:hover .section1-home-img-hover4 {
+  transform: translate(-2000px, 0px);
+  transition-delay: 6.5s;
 }
 
 @media screen and (max-width: 1900px) and (min-width: 1895px) {
