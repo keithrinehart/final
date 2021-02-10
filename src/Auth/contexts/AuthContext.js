@@ -1,5 +1,10 @@
 import React, { useContext, useState, useEffect } from "react";
 import { auth } from "../../firebaseConfig";
+import { Signup } from "../../Auth/compo/Signup";
+import firebase from 'firebase/app';
+import 'firebase/storage';
+import 'firebase/firestore';
+import 'firebase/auth';
 
 
 export const AuthContext = React.createContext()
@@ -11,9 +16,18 @@ export function useAuth() {
 export function AuthProvider({ children }) {
   const [currentUser, setCurrentUser] = useState()
   const [loading, setLoading] = useState(true)
+  const db = firebase.firestore();
 
-  function signup(email, password) {
-    return auth.createUserWithEmailAndPassword(email, password)
+  function signup(email, password, name) {
+    return auth.createUserWithEmailAndPassword(email, password, name).then(cred => {
+      return db.collection('users').doc(cred.user.uid).set({
+        name: signup['signup-name'].value
+      });
+    /*}).then(() => {
+      const modal = document.querySelector('#modal-signup');
+      M.Modal.getInstance(modal).close();
+      signup.reset();*/
+    });
   }
 
   function login(email, password) {
