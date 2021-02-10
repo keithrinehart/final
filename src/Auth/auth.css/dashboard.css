@@ -1,35 +1,32 @@
-.dash-card {
+.card-body {
   text-align: center;
-  color: ivory;
+  color: rgb(255, 255, 240);
   background-color: #171c27;
-  border: 1px solid rgb(255, 0, 0);
 }
 
-.btn {
+.btn-primary {
   position: relative;
   color: ivory;
   border-radius: 2px;
   font-weight: 600;
   background-color: rgb(224, 7, 7);
-  border: 1px solid ivory;
+  border: 1px solid var(--secondary);
 }
 
 .btn:hover {
   color: rgb(252, 0, 0);
   border: 1px solid ivory;
   transition: 0.3s;
-  background-color: #171c27;
+  background-color: var(--dark);
   border: 1px solid red;
 }
 
 .dash-btn-1 {
   bottom: 8px;
-  left: 5px;
+  left: 10px;
 }
 
 .dash-btn-2 {
-  top: 40px;
-}
-
-.dash-btn-2:hover {
+  position: relative;
+  top: 45px;
 }

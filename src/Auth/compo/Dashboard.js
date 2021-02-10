@@ -22,8 +22,8 @@ export default function Dashboard() {
 
   return (
     <>
-      <Card className="dash-card">
-        <Card.Body>
+      <Card className="card-container">
+        <Card.Body className="card-body">
           <h2 className="text-center mb-4">Profile</h2>
           {error && <Alert variant="danger">{error}</Alert>}
           <strong>Email:</strong> {currentUser.email}
@@ -36,7 +36,11 @@ export default function Dashboard() {
         </Card.Body>
       </Card>
       <div className="w-100 text-center mt-2">
-        <Button className="dash-btn-2" variant="link" onClick={handleLogout}>
+        <Button
+          className="dash-btn-2  btn"
+          variant="link"
+          onClick={handleLogout}
+        >
           Log Out
         </Button>
       </div>

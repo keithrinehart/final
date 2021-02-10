@@ -1,0 +1,19 @@
+// overwrite theme variables
+
+$primary: rgb(223, 0, 0);
+$secondary: rgb(255, 255, 240);
+$dark: #171c27;
+
+.card .btn-primary {
+  border-radius: 2px;
+}
+
+.card .btn-primary:hover {
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  background-color: #171c27;
+  transition: 0.4s;
+}
+
+// import bootstrap styles
+@import "~bootstrap/scss/bootstrap.scss";
