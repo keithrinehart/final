@@ -71,7 +71,7 @@ export default function UpdateProfile() {
                 />
               </Form.Group>
               <Form.Group id="password-confirm">
-                <Form.Label>Password Confirmation</Form.Label>
+                <Form.Label id="pass-label">Password Confirmation</Form.Label>
                 <Form.Control
                   type="password"
                   ref={passwordConfirmRef}
