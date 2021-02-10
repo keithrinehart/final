@@ -26,8 +26,8 @@
   width: 50%;
   height: 100%;
   border-right: 1px solid rgb(255, 0, 0);
-  transition: transform 800ms ease-in;
-  transition-delay: 1.5s;
+  transition: transform 2s ease-in;
+  transition-delay: 2.5s;
 }
 
 .section-one-container:hover .img-cover-left {
@@ -41,8 +41,8 @@
   height: 100%;
   left: 952px;
   border-left: 1px solid rgb(255, 0, 0);
-  transition: transform 800ms ease-in;
-  transition-delay: 1.5s;
+  transition: transform 2s ease-in;
+  transition-delay: 2.5s;
 }
 
 .section-one-container:hover .img-cover-right {
@@ -106,7 +106,7 @@
   z-index: 100;
   left: -2000px;
   top: 0px;
-  transition: transform 900ms ease-in;
+  transition: transform 4s ease-in;
 }
 
 .section-one-container:hover .section1-home-img-hover {
@@ -121,7 +121,7 @@
   z-index: 100;
   left: 2000px;
   top: 0px;
-  transition: transform 700ms ease-in;
+  transition: transform 3.5s ease-in;
 }
 
 .section-one-container:hover .section1-home-img-hover2 {
@@ -136,7 +136,7 @@
   z-index: 100;
   left: -2000px;
   top: 0px;
-  transition: transform 550ms ease-in;
+  transition: transform 3s ease-in;
 }
 
 .section-one-container:hover .section1-home-img-hover3 {
@@ -149,13 +149,13 @@
   width: 100%;
   height: 100%;
   z-index: 100;
-  left: 2000px;
-  top: 0px;
-  transition: transform 350ms ease-in;
+  left: 0px;
+  top: -2000px;
+  transition: transform 4.5s ease-in;
 }
 
 .section-one-container:hover .section1-home-img-hover4 {
-  transform: translate(-2000px, 0px);
+  transform: translate(0px, 2000px);
   transition-delay: 6.5s;
 }
 
