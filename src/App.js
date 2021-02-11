@@ -29,17 +29,11 @@ function App() {
           <Route path="/galleries" component={Galleries} />
           <PrivateRoute path="/newgallery" component={Gallery} />
           {/*<Redirect to="/" />*/}
-          
-          {/*<AuthProvider>*/}
-
-              <PrivateRoute exact path="/dashboard" component={Dashboard} />
-              <PrivateRoute path="/update-profile" component={UpdateProfile} />
-              <Route path="/signup" component={Signup} />
-              <Route path="/login" component={Login} />
-              <Route path="/forgot-password" component={ForgotPassword} />
-            
-          {/*</AuthProvider>*/}
-
+          <PrivateRoute exact path="/dashboard" component={Dashboard} />
+          <PrivateRoute path="/update-profile" component={UpdateProfile} />
+          <Route path="/signup" component={Signup} />
+          <Route path="/login" component={Login} />
+          <Route path="/forgot-password" component={ForgotPassword} />
       </Switch>
       </Router>
       </AuthProvider>

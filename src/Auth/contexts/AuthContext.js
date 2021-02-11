@@ -75,3 +75,5 @@ export function AuthProvider({ children }) {
     </AuthContext.Provider>
   )
 }
+
+export default db;
