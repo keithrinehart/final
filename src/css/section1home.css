@@ -26,7 +26,7 @@
   width: 50%;
   height: 100%;
   border-right: 1px solid rgb(255, 0, 0);
-  transition: transform 2s ease-in;
+  transition: transform 2s ease-in-out;
   transition-delay: 2.5s;
 }
 
@@ -41,7 +41,7 @@
   height: 100%;
   left: 952px;
   border-left: 1px solid rgb(255, 0, 0);
-  transition: transform 2s ease-in;
+  transition: transform 2s ease-in-out;
   transition-delay: 2.5s;
 }
 
@@ -107,7 +107,7 @@
   left: -2000px;
   top: 0px;
   border-right: 5px solid var(--primary);
-  transition: transform 2.5s ease-in;
+  transition: transform 2.7s ease-in-out;
 }
 
 .section-one-container:hover .section1-home-img-hover {
@@ -123,12 +123,12 @@
   left: 2000px;
   top: 0px;
   border-left: 5px solid var(--primary);
-  transition: transform 2.5s ease-in;
+  transition: transform 2.2s ease-in-out;
 }
 
 .section-one-container:hover .section1-home-img-hover2 {
   transform: translate(-2000px, 0px);
-  transition-delay: 5s;
+  transition-delay: 4.9s;
 }
 
 .section1-home-img-hover3 {
@@ -139,12 +139,12 @@
   left: 0px;
   top: 1500px;
   border-top: 5px solid var(--primary);
-  transition: transform 2.5s ease-in;
+  transition: transform 2.5s ease-in-out;
 }
 
 .section-one-container:hover .section1-home-img-hover3 {
   transform: translate(0px, -1500px);
-  transition-delay: 6s;
+  transition-delay: 5.4s;
 }
 
 .section1-home-img-hover4 {
@@ -155,12 +155,12 @@
   left: 0px;
   top: -2000px;
   border-bottom: 5px solid var(--primary);
-  transition: transform 2.5s ease-in;
+  transition: transform 2.9s ease-in-out;
 }
 
 .section-one-container:hover .section1-home-img-hover4 {
   transform: translate(0px, 2000px);
-  transition-delay: 6.5s;
+  transition-delay: 5.8s;
 }
 
 @media screen and (max-width: 1900px) and (min-width: 1895px) {
