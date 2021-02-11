@@ -74,6 +74,36 @@ $dark: #171c27;
   text-decoration: underline rgb(231, 1, 1);
 }
 
+.login-p-flex-container {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  top: 805px;
+  left: 0px;
+  margin: 0 auto;
+  z-index: 100;
+}
+
+.login-p {
+  color: ivory;
+  font-size: 18px;
+}
+
+.login-p-link {
+  position: relative;
+  top: 10px;
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: 600;
+}
+
+.login-p-link:hover {
+  color: ivory;
+  text-decoration: underline var(--primary);
+  transition: 0.3s;
+}
+
 // Sign-Up
 .card-signup {
   width: 1000px;
@@ -140,6 +170,36 @@ $dark: #171c27;
 #signup-password-control {
   position: relative;
   top: 70px;
+}
+
+.signup-p-flex-container {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  top: 825px;
+  left: 0px;
+  margin: 0 auto;
+  z-index: 100;
+}
+
+.signup-p {
+  color: ivory;
+  font-size: 18px;
+}
+
+.signup-p-link {
+  position: relative;
+  top: 10px;
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: 600;
+}
+
+.signup-p-link:hover {
+  color: ivory;
+  text-decoration: underline var(--primary);
+  transition: 0.3s;
 }
 
 // Forgotten Password
@@ -219,6 +279,36 @@ $dark: #171c27;
   font-size: 20px;
   letter-spacing: 2px;
   font-weight: 500;
+}
+
+.forgot-p-flex-container {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  top: 750px;
+  left: 0px;
+  margin: 0 auto;
+  z-index: 100;
+}
+
+.forgot-p {
+  color: ivory;
+  font-size: 18px;
+}
+
+.forgot-p-link {
+  position: relative;
+  top: 10px;
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: 600;
+}
+
+.forgot-p-link:hover {
+  color: ivory;
+  text-decoration: underline var(--primary);
+  transition: 0.3s;
 }
 
 /***********OPEN-HAMBURGER***********/

@@ -78,6 +78,14 @@ export default function Login() {
           </Link>
         </div>
       </Container>
+      <div className="login-p-flex-container">
+        <p className="login-p">
+          Back to{" "}
+          <Link className="login-p-link" to="/">
+            HOME
+          </Link>
+        </p>
+      </div>
     </>
   );
 }

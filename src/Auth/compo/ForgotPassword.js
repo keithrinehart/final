@@ -70,6 +70,14 @@ export default function ForgotPassword() {
           </Link>
         </div>
       </Container>
+      <div className="forgot-p-flex-container">
+        <p className="forgot-p">
+          Back to{" "}
+          <Link className="forgot-p-link" to="/">
+            HOME
+          </Link>
+        </p>
+      </div>
     </>
   );
 }

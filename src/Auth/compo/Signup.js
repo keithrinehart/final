@@ -92,6 +92,14 @@ export default function Signup() {
           </Link>
         </div>
       </Container>
+      <div className="signup-p-flex-container">
+        <p className="signup-p">
+          Back to{" "}
+          <Link className="signup-p-link" to="/">
+            HOME
+          </Link>
+        </p>
+      </div>
     </>
   );
 }
