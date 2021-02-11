@@ -221,5 +221,14 @@ $dark: #171c27;
   font-weight: 500;
 }
 
+/***********OPEN-HAMBURGER***********/
+.ham-li {
+  text-decoration: underline #171c27;
+}
+
+.ham-li:hover {
+  text-decoration: underline #171c27;
+}
+
 // import bootstrap styles
 @import "~bootstrap/scss/bootstrap.scss";
