@@ -16,18 +16,9 @@ export function useAuth() {
 export function AuthProvider({ children }) {
   const [currentUser, setCurrentUser] = useState()
   const [loading, setLoading] = useState(true)
-  const db = firebase.firestore();
 
   function signup(email, password, name) {
-    return auth.createUserWithEmailAndPassword(email, password, name).then(cred => {
-      return db.collection('users').doc(cred.user.uid).set({
-        name: signup['signup-name'].value
-      });
-    /*}).then(() => {
-      const modal = document.querySelector('#modal-signup');
-      M.Modal.getInstance(modal).close();
-      signup.reset();*/
-    });
+    return auth.createUserWithEmailAndPassword(email, password, name)
   }
 
   function login(email, password) {
@@ -76,4 +67,16 @@ export function AuthProvider({ children }) {
   )
 }
 
-export default db;
+
+
+/*const db = firebase.firestore();
+
+function signup(email, password, name) {
+  return auth.createUserWithEmailAndPassword(email, password, name)/*.then(cred => {
+    /*return db.collection('users').doc(cred.user.uid).set({
+      name: signup['signup-name'].value
+    });
+  }).then(() => {
+    const modal = document.querySelector('#modal-signup');
+    M.Modal.getInstance(modal).close();
+    signup.reset();*/

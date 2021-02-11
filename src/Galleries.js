@@ -11,7 +11,8 @@ function Galleries() {
   const [userData, setUserData] = useState([])
   useEffect(() => {
     // query database
-  const db = firebase.firestore();
+    
+    //const db = firebase.firestore();
 
     // setUserData
     

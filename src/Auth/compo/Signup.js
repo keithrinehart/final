@@ -88,7 +88,7 @@ export default function Signup() {
                   placeholder="Surname Name"
                   required 
                 />
-            </Form.Group>
+              </Form.Group>
               <Button disabled={loading} className="btn w-100" type="submit">
                 Sign Up
               </Button>
