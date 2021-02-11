@@ -155,12 +155,12 @@
   left: 0px;
   top: -2000px;
   border-bottom: 5px solid var(--primary);
-  transition: transform 2.9s ease-in-out;
+  transition: transform 2.4s ease-in-out;
 }
 
 .section-one-container:hover .section1-home-img-hover4 {
   transform: translate(0px, 2000px);
-  transition-delay: 5.8s;
+  transition-delay: 6.2s;
 }
 
 .sec1finalbkg {
@@ -172,12 +172,12 @@
   top: -2000px;
   border: 2px solid var(--primary);
   background-color: #171c27;
-  transition: transform 2.9s ease-in-out;
+  transition: transform 800ms ease-in-out;
 }
 
 .section-one-container:hover .sec1finalbkg {
   transform: translate(2000px, 2000px);
-  transition-delay: 7s;
+  transition-delay: 8.5s;
   border-top: 0px solid rgba(255, 0, 0, 0);
   border-bottom: 0px solid rgba(255, 0, 0, 0);
 }
