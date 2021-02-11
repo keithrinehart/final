@@ -23,6 +23,12 @@ $dark: #171c27;
   box-shadow: 0px 8px 20px 0 rgba(0, 0, 0, 0.41);
 }
 
+.card-login:hover {
+  box-shadow: 0px 8px 20px 0 rgba(0, 0, 0, 0.41),
+    0px 0px 10px 0 rgba(255, 0, 0, 0.671);
+  transition: 0.4s;
+}
+
 .card-body-login {
   min-width: 300px;
 }
@@ -74,12 +80,48 @@ $dark: #171c27;
   text-decoration: underline rgb(231, 1, 1);
 }
 
+.login-p-flex-container {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  top: 805px;
+  left: 0px;
+  margin: 0 auto;
+  z-index: 100;
+}
+
+.login-p {
+  color: ivory;
+  font-size: 18px;
+}
+
+.login-p-link {
+  position: relative;
+  top: 10px;
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: 600;
+}
+
+.login-p-link:hover {
+  color: ivory;
+  text-decoration: underline var(--primary);
+  transition: 0.3s;
+}
+
 // Sign-Up
 .card-signup {
   width: 1000px;
   min-width: 1000px;
   height: 570px;
   box-shadow: 0px 8px 20px 0 rgba(0, 0, 0, 0.41);
+}
+
+.card-signup:hover {
+  box-shadow: 0px 8px 20px 0 rgba(0, 0, 0, 0.41),
+    0px 0px 10px 0 rgba(255, 0, 0, 0.671);
+  transition: 0.4s;
 }
 
 .card-body-signup {
@@ -142,12 +184,48 @@ $dark: #171c27;
   top: 70px;
 }
 
+.signup-p-flex-container {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  top: 825px;
+  left: 0px;
+  margin: 0 auto;
+  z-index: 100;
+}
+
+.signup-p {
+  color: ivory;
+  font-size: 18px;
+}
+
+.signup-p-link {
+  position: relative;
+  top: 10px;
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: 600;
+}
+
+.signup-p-link:hover {
+  color: ivory;
+  text-decoration: underline var(--primary);
+  transition: 0.3s;
+}
+
 // Forgotten Password
 
 .card-pass {
   width: 1000px;
   min-width: 1000px;
   box-shadow: 0px 8px 20px 0 rgba(0, 0, 0, 0.41);
+}
+
+.card-pass:hover {
+  box-shadow: 0px 8px 20px 0 rgba(0, 0, 0, 0.41),
+    0px 0px 10px 0 rgba(255, 0, 0, 0.671);
+  transition: 0.4s;
 }
 
 .card-body-pass {
@@ -219,6 +297,45 @@ $dark: #171c27;
   font-size: 20px;
   letter-spacing: 2px;
   font-weight: 500;
+}
+
+.forgot-p-flex-container {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  top: 750px;
+  left: 0px;
+  margin: 0 auto;
+  z-index: 100;
+}
+
+.forgot-p {
+  color: ivory;
+  font-size: 18px;
+}
+
+.forgot-p-link {
+  position: relative;
+  top: 10px;
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: 600;
+}
+
+.forgot-p-link:hover {
+  color: ivory;
+  text-decoration: underline var(--primary);
+  transition: 0.3s;
+}
+
+/***********OPEN-HAMBURGER***********/
+.ham-li {
+  text-decoration: underline #171c27;
+}
+
+.ham-li:hover {
+  text-decoration: underline #171c27;
 }
 
 // import bootstrap styles

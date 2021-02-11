@@ -6,7 +6,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css"; // possible to modify the CSS by deactivating bootstrap
-import "./custom.scss";
+import "./custom.sass";
 
 ReactDOM.render(
   <React.StrictMode>

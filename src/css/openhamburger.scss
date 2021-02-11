@@ -51,6 +51,12 @@ li {
   z-index: 100;
 }
 
+li:hover {
+  text-decoration: underline;
+  letter-spacing: 3px;
+  transition: 0.3s;
+}
+
 @keyframes ham-wording {
   0% {
     font-size: 25px;
@@ -97,12 +103,12 @@ li {
   opacity: 0;
   background-color: rgba(255, 0, 0, 0.452);
   z-index: -1;
-  animation: gallbox 0.6s linear 1.7s forwards, none;
+  animation: gallbox 0.7s linear 1.7s forwards, none;
 }
 
 @keyframes gallbox {
   0% {
-    left: 400px;
+    left: 250px;
     opacity: 0.2;
   }
   100% {
@@ -121,7 +127,7 @@ li {
   opacity: 0;
   background-color: rgba(255, 0, 0, 0.452);
   z-index: -1;
-  animation: create-gall-box 0.4s linear 1.6s forwards, none;
+  animation: create-gall-box 0.6s linear 2.1s forwards, none;
 }
 
 @keyframes create-gall-box {
