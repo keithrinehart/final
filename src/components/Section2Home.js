@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/section2home.css";
+import "../css/section2home.scss";
 import Img1 from "../img/img1.jpg";
 //import Img17 from "../img/img-17.jpg";
 import { Link } from "react-router-dom";

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import OpenHamburger from "../components/OpenHamburger";
-import "../css/hamburger.css";
+import "../css/hamburger.scss";
 
 function Hamburger() {
   const [show, setShow] = useState(false);

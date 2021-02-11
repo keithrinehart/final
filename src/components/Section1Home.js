@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/section1home.css";
+import "../css/section1home.scss";
 import Img10 from "../img/img-10.jpg";
 import Imgvtroop from "../img/vtrooper.jpg";
 import Img6 from "../img/img-6.jpg";

@@ -1,6 +1,6 @@
 import React from "react";
 import Hamburger from "./components/Hamburger";
-import "./css/galleries.css";
+import "./css/galleries.scss";
 import firebase from 'firebase/app';
 import 'firebase/storage';
 import 'firebase/firestore';

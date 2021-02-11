@@ -1,6 +1,6 @@
 import React from "react";
 import Hamburger from "./components/Hamburger";
-import "./css/about.css";
+import "./css/about.scss";
 
 function About() {
   return (
