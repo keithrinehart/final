@@ -47,6 +47,23 @@ function Section1Home() {
         width="200px"
         height="200px"
       ></img>
+      <div className="sec1finalbkg"></div>
+      <div className="monthlyartist-container">
+        <p className="monthly-artist-p">
+          <span className="monthly-artist-p-span">O</span>
+          <span className="monthly-artist-p-2ndword-1">UR</span>{" "}
+          <span className="monthly-artist-p-span2">M</span>
+          <span className="monthly-artist-p-span3">ONTHLY</span>
+        </p>
+        <p className="monthly-artist-p2">
+          <span className="monthly-artist-p-span4">A</span>rTiST{" "}
+          <span className="monthly-artist-p-span5">I</span>
+          <span className="monthly-artist-p-span6">S</span>
+        </p>
+        <div className="monthly-artist-name"></div>
+        <div className="monthly-artist-section"></div>
+        <p className="artist-congrats-p">CONgrATS</p>
+      </div>
     </div>
   );
 }
