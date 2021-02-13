@@ -14,6 +14,7 @@ function Section2Home() {
           <div className="sec2-p-flex">
             <p className="sec2-hover-p">WhO SAID YOU CAnT BE An</p>
             <p className="sec2-hover-p2">ArTIST</p>
+            <div className="section-two-redlineOne"></div>
           </div>
           <div className="block-one-cover"></div>
           <div className="sec2-hover-flex-row-container">
@@ -394,8 +395,6 @@ function Section2Home() {
               <div className="float-line"></div>
             </Link>
           </ul>
-
-          <div className="section-two-redlineOne"></div>
         </div>
       </div>
     </div>
