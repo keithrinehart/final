@@ -4,6 +4,7 @@ import Img10 from "../img/img-10.jpg";
 import Imgvtroop from "../img/vtrooper.jpg";
 import Img6 from "../img/img-6.jpg";
 import Img16 from "../img/img-16.jpg";
+import ArtistExp from "../img/artist-example.jpg";
 
 function Section1Home() {
   return (
@@ -61,7 +62,17 @@ function Section1Home() {
           <span className="monthly-artist-p-span6">S</span>
         </p>
         <div className="monthly-artist-name"></div>
-        <div className="monthly-artist-section"></div>
+        <div className="monthly-artist-section">
+          <div className="artist-sec-line1"></div>
+          <div className="artist-sec-line2"></div>
+          <div className="artist-sec-line3"></div>
+          <img
+            className="artist-img"
+            src={ArtistExp}
+            alt="artist"
+            width="200px"
+          ></img>
+        </div>
         <p className="artist-congrats-p">CONgrATS</p>
       </div>
     </div>
