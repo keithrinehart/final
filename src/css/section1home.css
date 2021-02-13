@@ -103,7 +103,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: 100;
+  z-index: 90;
   left: -2000px;
   top: 0px;
   border-right: 5px solid var(--primary);
@@ -119,7 +119,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: 100;
+  z-index: 90;
   left: 2000px;
   top: 0px;
   border-left: 5px solid var(--primary);
@@ -135,7 +135,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: 100;
+  z-index: 90;
   left: 0px;
   top: 1500px;
   border-top: 5px solid var(--primary);
@@ -151,7 +151,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: 100;
+  z-index: 90;
   left: 0px;
   top: -2000px;
   border-bottom: 5px solid var(--primary);
@@ -167,7 +167,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: 100;
+  z-index: 90;
   left: -2000px;
   top: -2000px;
   border: 2px solid var(--primary);
@@ -179,8 +179,16 @@
   transform: translate(2000px, 2000px);
   transition-delay: 8.5s;
   border-top: 0px solid rgba(255, 0, 0, 0);
-  border-bottom: 0px solid rgba(255, 0, 0, 0);
+  border-bottom: 0px solid var(--primary);
 }
+
+/*******************MONTHLY-ARTIST****************/
+
+/*******************MONTHLY-ARTIST****************/
+
+/*******************MONTHLY-ARTIST****************/
+
+/*******************MONTHLY-ARTIST****************/
 
 /*******************MONTHLY-ARTIST****************/
 
@@ -191,7 +199,7 @@
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  z-index: 100;
+  z-index: 91;
 }
 
 .monthly-artist-p {
@@ -201,8 +209,8 @@
   font-size: 35px;
   font-family: "Cinzel Decorative", cursive;
   letter-spacing: 3px;
-  z-index: 100;
   transition: transform 1.2s ease-in-out;
+  z-index: 91;
 }
 .section-one-container:hover .monthly-artist-p {
   transform: translate(-1000px, 0px);
@@ -215,11 +223,13 @@
   top: 5px;
   font-size: 70px;
   color: var(--primary);
+  z-index: 91;
 }
 
 .monthly-artist-p-2ndword-1 {
   position: relative;
   top: 20px;
+  z-index: 91;
 }
 
 .monthly-artist-p-span2 {
@@ -228,6 +238,7 @@
   left: -120px;
   font-size: 70px;
   color: var(--secondary);
+  z-index: 91;
 }
 
 .monthly-artist-p-span3 {
@@ -235,6 +246,7 @@
   top: 55px;
   left: -120px;
   color: var(--primary);
+  z-index: 91;
 }
 
 .monthly-artist-p2 {
@@ -244,7 +256,7 @@
   font-size: 35px;
   font-family: "Cinzel Decorative", cursive;
   letter-spacing: 1px;
-  z-index: 100;
+  z-index: 91;
   transition: transform 1.2s ease-in-out;
 }
 
@@ -259,6 +271,7 @@
   left: 5px;
   font-size: 70px;
   color: var(--primary);
+  z-index: 91;
 }
 
 .monthly-artist-p-span5 {
@@ -267,6 +280,7 @@
   left: -95px;
   font-size: 70px;
   color: var(--secondary);
+  z-index: 91;
 }
 
 .monthly-artist-p-span6 {
@@ -275,6 +289,7 @@
   top: 54px;
   left: -100px;
   color: var(--primary);
+  z-index: 91;
 }
 
 .monthly-artist-section {
@@ -284,13 +299,73 @@
   top: 200px;
   left: -300px;
   background-color: var(--primary);
-  z-index: 100;
+  z-index: 91;
   transition: transform 1s ease-in-out;
 }
 
 .section-one-container:hover .monthly-artist-section {
   transform: translate(900px, 0px);
   transition-delay: 10.2s;
+}
+
+.artist-sec-line1 {
+  position: absolute;
+  width: 1px;
+  height: 500px;
+  left: -400px;
+  top: -930px;
+  background-color: var(--primary);
+  transition: transform 1s ease-in-out;
+}
+
+.section-one-container:hover .artist-sec-line1 {
+  transform: translate(0px, 350px);
+  transition-delay: 13.5s;
+}
+
+.artist-sec-line2 {
+  position: absolute;
+  width: 1px;
+  height: 500px;
+  left: -350px;
+  top: -920px;
+  background-color: var(--primary);
+  transition: transform 1s ease-in-out;
+}
+
+.section-one-container:hover .artist-sec-line2 {
+  transform: translate(0px, 300px);
+  transition-delay: 13s;
+}
+
+.artist-sec-line3 {
+  position: absolute;
+  width: 1px;
+  height: 500px;
+  left: -300px;
+  top: -920px;
+  background-color: var(--primary);
+  transition: transform 1s ease-in-out;
+}
+
+.section-one-container:hover .artist-sec-line3 {
+  transform: translate(0px, 250px);
+  transition-delay: 12.5s;
+}
+
+.artist-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: -800px;
+  z-index: 92;
+  transition: transform 1s ease-in-out;
+}
+
+.section-one-container:hover .artist-img {
+  transform: translate(0px, 800px);
+  transition-delay: 11.4s;
+  box-shadow: 0px 0px 4px 0 var(--primary);
 }
 
 .artist-congrats-p {
@@ -300,13 +375,289 @@
   font-size: 35px;
   font-family: "Cinzel Decorative", cursive;
   letter-spacing: 1px;
-  z-index: 100;
+  z-index: 91;
   transition: transform 1.4s ease-in-out;
 }
 
 .section-one-container:hover .artist-congrats-p {
   transform: translate(-1100px, 0px);
   transition-delay: 10.5s;
+}
+
+/************MEDIA-SIZING-ARTIST-SECTION********/
+
+@media screen and (max-width: 1800px) and (min-width: 1700px) {
+  .monthly-artist-p {
+    top: 100px;
+  }
+
+  .monthly-artist-p2 {
+    top: 670px;
+  }
+
+  .monthly-artist-section {
+    top: 200px;
+    left: -400px;
+  }
+
+  .section-one-container:hover .monthly-artist-section {
+    transform: translate(850px, 0px);
+  }
+
+  .artist-congrats-p {
+    left: 1100px;
+  }
+
+  .section-one-container:hover .artist-congrats-p {
+    transform: translate(-1200px, 0px);
+    transition-delay: 10.5s;
+  }
+}
+
+@media screen and (max-width: 1700px) and (min-width: 1600px) {
+  .monthly-artist-p {
+    top: 100px;
+  }
+
+  .monthly-artist-p2 {
+    top: 670px;
+  }
+
+  .monthly-artist-section {
+    top: 200px;
+    left: -400px;
+  }
+
+  .section-one-container:hover .monthly-artist-section {
+    transform: translate(800px, 0px);
+  }
+
+  .artist-congrats-p {
+    left: 1100px;
+  }
+
+  .section-one-container:hover .artist-congrats-p {
+    transform: translate(-1200px, 0px);
+    transition-delay: 10.5s;
+  }
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1500px) {
+  .monthly-artist-p {
+    top: 100px;
+  }
+
+  .monthly-artist-p2 {
+    top: 670px;
+  }
+
+  .monthly-artist-section {
+    top: 200px;
+    left: -300px;
+  }
+
+  .section-one-container:hover .monthly-artist-section {
+    transform: translate(600px, 0px);
+  }
+
+  .artist-congrats-p {
+    left: 1100px;
+  }
+
+  .section-one-container:hover .artist-congrats-p {
+    transform: translate(-1200px, 0px);
+    transition-delay: 10.5s;
+  }
+}
+
+@media screen and (max-width: 1500px) and (min-width: 1400px) {
+  .monthly-artist-p {
+    top: 100px;
+  }
+
+  .monthly-artist-p2 {
+    top: 670px;
+  }
+
+  .monthly-artist-section {
+    top: 200px;
+    left: -300px;
+  }
+
+  .section-one-container:hover .monthly-artist-section {
+    transform: translate(600px, 0px);
+  }
+
+  .artist-congrats-p {
+    left: 1100px;
+  }
+
+  .section-one-container:hover .artist-congrats-p {
+    transform: translate(-1200px, 0px);
+    transition-delay: 10.5s;
+  }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1300px) {
+  .monthly-artist-p {
+    top: 100px;
+  }
+
+  .monthly-artist-p2 {
+    top: 670px;
+  }
+
+  .monthly-artist-section {
+    top: 200px;
+    left: -300px;
+  }
+
+  .section-one-container:hover .monthly-artist-section {
+    transform: translate(600px, 0px);
+  }
+
+  .artist-congrats-p {
+    left: 1100px;
+  }
+
+  .section-one-container:hover .artist-congrats-p {
+    transform: translate(-1200px, 0px);
+    transition-delay: 10.5s;
+  }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 1200px) {
+  .monthlyartist-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    z-index: 91;
+  }
+
+  .monthly-artist-p {
+    position: relative;
+    top: 200px;
+    left: 1200px;
+    font-size: 35px;
+    font-family: "Cinzel Decorative", cursive;
+    letter-spacing: 3px;
+    transition: transform 1.2s ease-in-out;
+    z-index: 91;
+  }
+  .section-one-container:hover .monthly-artist-p {
+    transform: translate(-1000px, 0px);
+    transition-delay: 9.2s;
+  }
+
+  .monthly-artist-p-span {
+    position: relative;
+    left: 13px;
+    top: 5px;
+    font-size: 70px;
+    color: var(--primary);
+    z-index: 91;
+  }
+
+  .monthly-artist-p-2ndword-1 {
+    position: relative;
+    top: 20px;
+    z-index: 91;
+  }
+
+  .monthly-artist-p-span2 {
+    position: relative;
+    top: 55px;
+    left: -120px;
+    font-size: 70px;
+    color: var(--secondary);
+    z-index: 91;
+  }
+
+  .monthly-artist-p-span3 {
+    position: relative;
+    top: 55px;
+    left: -120px;
+    color: var(--primary);
+    z-index: 91;
+  }
+
+  .monthly-artist-p2 {
+    position: relative;
+    top: 770px;
+    left: 160px;
+    font-size: 35px;
+    font-family: "Cinzel Decorative", cursive;
+    letter-spacing: 1px;
+    z-index: 91;
+    transition: transform 1.2s ease-in-out;
+  }
+
+  .section-one-container:hover .monthly-artist-p2 {
+    transform: translate(0px, -585px);
+    transition-delay: 10s;
+  }
+
+  .monthly-artist-p-span4 {
+    position: relative;
+    top: 10px;
+    left: 5px;
+    font-size: 70px;
+    color: var(--primary);
+    z-index: 91;
+  }
+
+  .monthly-artist-p-span5 {
+    position: relative;
+    top: 56px;
+    left: -95px;
+    font-size: 70px;
+    color: var(--secondary);
+    z-index: 91;
+  }
+
+  .monthly-artist-p-span6 {
+    position: relative;
+    font-size: 28px;
+    top: 54px;
+    left: -100px;
+    color: var(--primary);
+    z-index: 91;
+  }
+
+  .monthly-artist-section {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    top: 200px;
+    left: -300px;
+    background-color: var(--primary);
+    z-index: 91;
+    transition: transform 1s ease-in-out;
+  }
+
+  .section-one-container:hover .monthly-artist-section {
+    transform: translate(500px, 0px);
+    transition-delay: 10.1s;
+  }
+
+  .artist-congrats-p {
+    position: relative;
+    top: 165px;
+    left: 1100px;
+    font-size: 35px;
+    font-family: "Cinzel Decorative", cursive;
+    letter-spacing: 1px;
+    z-index: 91;
+    transition: transform 1.4s ease-in-out;
+  }
+
+  .section-one-container:hover .artist-congrats-p {
+    transform: translate(-1200px, 0px);
+    transition-delay: 10.5s;
+  }
 }
 
 /******************MEDIA-SIZING*****************/
