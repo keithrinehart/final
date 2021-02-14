@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Cell from "../img/cell2.png";
 import { Link } from "react-router-dom";
-import "../css/section3home.css";
+import "../css/section3home.scss";
 import "../css/footer.css";
 import Fface from "../img/face.jpg";
 import gsap from "gsap";
