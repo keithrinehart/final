@@ -1,0 +1,474 @@
+.footer-wrap {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  top: 100px;
+  justify-content: center;
+  padding-top: 200px;
+  text-align: center;
+  background-color: #171c27;
+}
+
+.footer-h4-flex {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 60px 0;
+}
+
+.footer-h4 {
+  position: relative;
+  left: 40px;
+  color: ivory;
+  font-family: "Cinzel Decorative", cursive;
+  z-index: 95;
+}
+
+.footer-h4-2 {
+  position: relative;
+  top: 10px;
+  left: 40px;
+  color: rgb(243, 0, 0);
+  font-family: "Cinzel Decorative", cursive;
+  z-index: 95;
+}
+
+.footer-img {
+  position: relative;
+  top: 30px;
+  left: -50px;
+  border-left: 0px solid rgb(255, 0, 0);
+  border-bottom: 0px solid rgb(255, 0, 0);
+  border-radius: 15%;
+  transform: rotate(35deg);
+  box-shadow: 0px 0px 15px 0px rgb(44, 44, 61);
+  -webkit-box-reflect: below -20px linear-gradient(transparent, #0002);
+  z-index: 90;
+}
+
+.footer-p-copyrights {
+  font-size: 12px;
+}
+
+.footer-flex {
+  position: relative;
+  left: -10px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+/***********************FOOTER-HOVER-BAR****************/
+
+.link-div-hover:hover .footer-line-hover {
+  transform: translate(-172px, 0px);
+}
+
+.link-div-hover2:hover .footer-line-hover2 {
+  transform: translate(-134px, 0px);
+}
+
+.link-div-hover3:hover .footer-line-hover3 {
+  transform: translate(-103px, 0px);
+}
+
+.link-div-hover4:hover .footer-line-hover4 {
+  transform: translate(-48px, 0px);
+}
+
+.footer-line-hover-cover {
+  position: relative;
+  width: 155px;
+  height: 10px;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.footer-line-hover {
+  position: relative;
+  width: 95px;
+  height: 2px;
+  left: 200px;
+  background-color: rgb(228, 0, 0);
+  transition: transform 600ms ease-in-out;
+  z-index: 100;
+}
+
+.footer-line-hover-cover2 {
+  position: relative;
+  width: 145px;
+  height: 10px;
+  top: 0px;
+  left: -0px;
+  overflow: hidden;
+  z-index: 91;
+}
+
+.footer-line-hover2 {
+  position: relative;
+  width: 93px;
+  height: 2px;
+  left: 160px;
+  background-color: rgb(228, 0, 0);
+  transition: transform 600ms ease-in-out;
+  z-index: 90;
+}
+
+.footer-line-hover-cover3 {
+  position: relative;
+  width: 120px;
+  height: 10px;
+  top: 0px;
+  left: 5px;
+  overflow: hidden;
+  z-index: 91;
+}
+
+.footer-line-hover3 {
+  position: relative;
+  width: 75px;
+  height: 2px;
+  left: 120px;
+  background-color: rgb(228, 0, 0);
+  transition: transform 600ms ease-in-out;
+  z-index: 90;
+}
+
+.footer-line-hover-cover4 {
+  position: relative;
+  width: 64px;
+  height: 10px;
+  top: 0px;
+  left: -2px;
+  overflow: hidden;
+  z-index: 91;
+}
+
+.footer-line-hover4 {
+  position: relative;
+  width: 35px;
+  height: 2px;
+  left: 65px;
+  background-color: rgb(228, 0, 0);
+  transition: transform 600ms ease-in-out;
+  z-index: 90;
+}
+
+/***********************FOOTER-HOVER-BAR****************/
+
+.footer-p {
+  padding: 0px 0px;
+  color: rgb(228, 0, 0);
+}
+
+.footer-link {
+  position: relative;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: rgb(255, 255, 255);
+  z-index: 95;
+}
+
+.footer-link:hover {
+  color: ivory;
+  transition: 0.3s;
+  text-decoration: none;
+  padding: 0px 28px;
+  letter-spacing: 1px;
+}
+
+.footer-link2 {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: rgb(255, 255, 255);
+}
+
+.footer-link2:hover {
+  color: ivory;
+  transition: 0.3s;
+  text-decoration: none;
+  padding: 0px 24px;
+  letter-spacing: 1px;
+}
+
+.footer-link3 {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: rgb(255, 255, 255);
+}
+
+.footer-link3:hover {
+  color: ivory;
+  transition: 0.3s;
+  text-decoration: none;
+  padding: 0px 20px;
+  letter-spacing: 1px;
+}
+
+.footer-link4 {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: rgb(255, 255, 255);
+}
+
+.footer-link4:hover {
+  color: ivory;
+  transition: 0.3s;
+  text-decoration: none;
+  padding: 0px 8px;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 569px) and (min-width: 339px) {
+  .link-div-hover:hover .footer-line-hover {
+    transform: translate(-177px, 0px);
+  }
+
+  .link-div-hover2:hover .footer-line-hover2 {
+    transform: translate(-138px, 0px);
+  }
+
+  .link-div-hover3:hover .footer-line-hover3 {
+    transform: translate(-105px, 0px);
+  }
+
+  .link-div-hover4:hover .footer-line-hover4 {
+    transform: translate(-54px, 0px);
+  }
+
+  .footer-line-hover-cover {
+    position: relative;
+    width: 100px;
+    height: 10px;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+
+  .footer-line-hover {
+    position: relative;
+    width: 90px;
+    height: 2px;
+    left: 182px;
+    background-color: rgb(228, 0, 0);
+    transition: transform 600ms ease-in-out;
+    z-index: 100;
+  }
+
+  .footer-line-hover-cover2 {
+    position: relative;
+    width: 100px;
+    height: 10px;
+    top: 0px;
+    left: -0px;
+    overflow: hidden;
+    z-index: 91;
+  }
+
+  .footer-line-hover2 {
+    position: relative;
+    width: 85px;
+    height: 2px;
+    left: 145px;
+    background-color: rgb(228, 0, 0);
+    transition: transform 600ms ease-in-out;
+    z-index: 90;
+  }
+
+  .footer-line-hover-cover3 {
+    position: relative;
+    width: 80px;
+    height: 10px;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    z-index: 91;
+  }
+
+  .footer-line-hover3 {
+    position: relative;
+    width: 70px;
+    height: 2px;
+    left: 110px;
+    background-color: rgb(228, 0, 0);
+    transition: transform 600ms ease-in-out;
+    z-index: 90;
+  }
+
+  .footer-line-hover-cover4 {
+    position: relative;
+    width: 40px;
+    height: 10px;
+    top: 0px;
+    left: -2px;
+    overflow: hidden;
+    z-index: 91;
+  }
+
+  .footer-line-hover4 {
+    position: relative;
+    width: 45px;
+    height: 2px;
+    left: 60px;
+    background-color: rgb(228, 0, 0);
+    transition: transform 600ms ease-in-out;
+    z-index: 90;
+  }
+
+  .footer-p {
+    padding: 0px 0px;
+    color: rgb(228, 0, 0);
+  }
+
+  .footer-link {
+    position: relative;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    z-index: 95;
+  }
+
+  .footer-link:hover {
+    color: ivory;
+    transition: 0.3s;
+    text-decoration: none;
+    padding: 0px 0px;
+    letter-spacing: 1px;
+  }
+
+  .footer-link2 {
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+  }
+
+  .footer-link2:hover {
+    color: ivory;
+    transition: 0.3s;
+    text-decoration: none;
+    padding: 0px 0px;
+    letter-spacing: 1px;
+  }
+
+  .footer-link3 {
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+  }
+
+  .footer-link3:hover {
+    color: ivory;
+    transition: 0.3s;
+    text-decoration: none;
+    padding: 0px 0px;
+    letter-spacing: 1px;
+  }
+
+  .footer-link4 {
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+  }
+
+  .footer-link4:hover {
+    color: ivory;
+    transition: 0.3s;
+    text-decoration: none;
+    padding: 0px 0px;
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (max-width: 339px) and (min-width: 0px) {
+  .link-div-hover:hover .footer-line-hover {
+    display: none;
+  }
+
+  .link-div-hover2:hover .footer-line-hover2 {
+    display: none;
+  }
+
+  .link-div-hover3:hover .footer-line-hover3 {
+    display: none;
+  }
+
+  .link-div-hover4:hover .footer-line-hover4 {
+    display: none;
+  }
+
+  .footer-line-hover-cover {
+    display: none;
+  }
+
+  .footer-line-hover {
+    display: none;
+  }
+
+  .footer-line-hover-cover2 {
+    display: none;
+  }
+
+  .footer-line-hover2 {
+    display: none;
+  }
+
+  .footer-line-hover-cover3 {
+    display: none;
+  }
+
+  .footer-line-hover3 {
+    display: none;
+  }
+
+  .footer-line-hover-cover4 {
+    display: none;
+  }
+
+  .footer-line-hover4 {
+    display: none;
+  }
+
+  .footer-link {
+    font-size: 10px;
+  }
+
+  .footer-link2 {
+    font-size: 10px;
+  }
+
+  .footer-link3 {
+    font-size: 10px;
+  }
+
+  .footer-link4 {
+    font-size: 10px;
+  }
+
+  .footer-link:hover {
+    color: ivory;
+    transition: 0.3s;
+    text-decoration: none;
+    padding: 0px 0px;
+    letter-spacing: 2px;
+  }
+
+  .footer-link2:hover {
+    color: ivory;
+    transition: 0.3s;
+    text-decoration: none;
+    padding: 0px 0px;
+    letter-spacing: 2px;
+  }
+
+  .footer-link3:hover {
+    color: ivory;
+    transition: 0s;
+    text-decoration: none;
+    padding: 0px 0px;
+    letter-spacing: 2px;
+  }
+
+  .footer-link4:hover {
+    color: ivory;
+    transition: 0.3s;
+    text-decoration: none;
+    padding: 0px 0px;
+    letter-spacing: 2px;
+  }
+}

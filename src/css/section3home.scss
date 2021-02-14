@@ -1,5 +1,8 @@
 .section-3-container {
+  position: relative;
+  top: 273px;
   width: 100%;
+  padding-bottom: 100px;
   height: 1212px;
   z-index: 93;
   background-color: #171c27;
@@ -21,10 +24,6 @@
   background-color: rgb(255, 0, 0);
   z-index: 100;
 }*/
-.sec3-line2 {
-}
-.sec3-line3 {
-}
 
 .section-3-redlineOne {
   position: relative;
@@ -184,7 +183,7 @@
   bottom: -100px;
   left: 480px;
   width: 1px;
-  padding: 0 0 10px 0;
+  padding: 0 0 0px 0;
   background-color: rgb(255, 0, 0);
 }
 

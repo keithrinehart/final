@@ -1,19 +1,14 @@
-*,
-*::after,
-*::before {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-html {
-  overflow: hidden;
-  height: 100%;
-}
-
-body {
-  height: 100%;
+.about-body {
+  height: 100vh;
   overflow: auto;
-  color: rgb(255, 0, 0);
   background-color: #171c27;
+  justify-content: center;
+}
+
+.about-h1 {
+  position: relative;
+  top: 200px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 100px;
 }
