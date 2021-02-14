@@ -2,7 +2,9 @@ import React, { useRef, useState } from "react";
 import { Form, Button, Card, Alert } from "react-bootstrap";
 import { useAuth } from "../contexts/AuthContext";
 import { Link, useHistory } from "react-router-dom";
-import { Container } from "react-bootstrap"; // Container having a CSS effect on the component that is not so good
+import { Container } from "react-bootstrap";
+import firebase from 'firebase/app';
+const db = firebase.firestore();
 
 export default function Signup() {
   const emailRef = useRef()
@@ -17,6 +19,22 @@ export default function Signup() {
 
   async function handleSubmit(e) {
     e.preventDefault();
+
+  /*
+
+  const db = firebase.firestore();
+
+  function signup(email, password) {
+  auth.createUserWithEmailAndPassword(email, password).then(cred => {
+    return db.collection('users').doc(cred.user.uid).set({
+      name: signup['signup-name'].value
+    });
+  }).then(() => {
+    const modal = document.querySelector('#modal-signup');
+    M.Modal.getInstance(modal).close();
+    signup.reset();
+    
+  */
 
     if (passwordRef.current.value !== passwordConfirmRef.current.value) {
       return setError("Passwords do not match");
@@ -113,3 +131,14 @@ export default function Signup() {
     </>
   );
 }
+
+/*
+// signup
+const signup = document.querySelector('#signup-form');
+signupForm.addEventListener('Sign Up', (e) => {
+e.preventDefault();
+
+  // get user info
+const email = signupForm['signup-email'].value;
+const password = signupForm['signup-password'].value;
+*/

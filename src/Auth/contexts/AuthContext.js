@@ -66,17 +66,3 @@ export function AuthProvider({ children }) {
     </AuthContext.Provider>
   )
 }
-
-
-
-/*const db = firebase.firestore();
-
-function signup(email, password, name) {
-  return auth.createUserWithEmailAndPassword(email, password, name)/*.then(cred => {
-    /*return db.collection('users').doc(cred.user.uid).set({
-      name: signup['signup-name'].value
-    });
-  }).then(() => {
-    const modal = document.querySelector('#modal-signup');
-    M.Modal.getInstance(modal).close();
-    signup.reset();*/
