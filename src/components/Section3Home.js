@@ -52,7 +52,7 @@ function Section3Home() {
           ></img>
           <div className="cell-line"></div>
           <div className="cell-line2"></div>
-          <Link to="/newgallery">
+          <Link to="/about">
             <h3 className="section-3-link">Find out how</h3>
           </Link>
         </div>
