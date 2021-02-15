@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import {
   Route,
   BrowserRouter as Router,
@@ -8,6 +8,7 @@ import {
 import Home from "./Home";
 import Galleries from "./Galleries";
 import Gallery from "./Gallery";
+import NewGallery from "./NewGallery";
 import About from "./About";
 //import Auth from "./Auth";
 //import About from "./About";
@@ -29,25 +30,22 @@ function App() {
       <AuthProvider>
         <Router>
           <Switch>
-            {" "}
-            {/* which Route are we currently on */}
-            <Route exact path="/" exact component={Home} />
-            <Route path="/galleries" component={Galleries} />
-            <PrivateRoute path="/newgallery" component={Gallery} />
-            {/*<Redirect to="/" />*/}
-            {/*<AuthProvider>*/}
-            <PrivateRoute exact path="/dashboard" component={Dashboard} />
+            
+            <Route exact path="/" component={Home} />
+            <Route exact path="/galleries" component={Galleries} />
+            <Route path="/galleries/:userId" component={Gallery} />
+
+            <PrivateRoute path="/newgallery" component={NewGallery} />
             <PrivateRoute path="/update-profile" component={UpdateProfile} />
             <Route path="/signup" component={Signup} />
             <Route path="/login" component={Login} />
             <Route path="/forgot-password" component={ForgotPassword} />
             <Route path="/about" component={About} />
-            {/*</AuthProvider>*/}
           </Switch>
         </Router>
       </AuthProvider>
     </div>
-  );
-}
+  )
+  }
 
-export default App;
+  export default App;

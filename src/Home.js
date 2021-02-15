@@ -53,12 +53,11 @@ function Home() {
           <div className="home-display-row">
             <div className="p-line"></div>
             <p ref={(el) => (headingp = el)} className="home-p1">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua. At vero eos et accusam et justo duo
-              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-              sanctus est Lorem ipsum dolor sit amet. Lorem ipsum invidunt ut
-              labore et
+              + YOU + want to share your ART online in a Simple, Pleasant and Elegant way? 
+              Then ~ArtsyIsh~ is the perfect place for you.
+              ArtsyIsh is the free online art gallery platform that will allow you to upload 
+              and share your best pieces of art with only a few clicks and a simple signup form.
+              What are you waiting for? The net is looking forward for your art.
             </p>
             <div
               ref={(el) => (headingBottomLine = el)}

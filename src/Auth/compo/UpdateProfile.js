@@ -3,7 +3,7 @@ import { Form, Button, Card, Alert } from "react-bootstrap";
 import { useAuth } from "../contexts/AuthContext";
 import { Link, useHistory } from "react-router-dom";
 import { Container } from "react-bootstrap"; // Container having a CSS effect on the component that is not so good
-import "../auth.css/updateprofile.css";
+import "../auth.scss/updateprofile.scss";
 
 export default function UpdateProfile() {
   const emailRef = useRef();

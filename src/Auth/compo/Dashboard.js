@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Card, Button, Alert } from "react-bootstrap";
 import { useAuth } from "../contexts/AuthContext";
 import { Link, useHistory } from "react-router-dom";
-import "../auth.css/dashboard.css";
+import "../auth.scss/dashboard.scss";
 
 export default function Dashboard() {
   const [error, setError] = useState("");
