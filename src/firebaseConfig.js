@@ -6,12 +6,12 @@ import 'firebase/auth'; // for authentification
 
 // Your web app's Firebase configuration
 const app = firebase.initializeApp({
-    apiKey: "AIzaSyDAwHmMETVcTORBqam5ULQG-pOAfCjMwlk",
-    authDomain: "art-gallery-finalproject.firebaseapp.com",
-    projectId: "art-gallery-finalproject",
-    storageBucket: "art-gallery-finalproject.appspot.com",
-    messagingSenderId: "54254015624",
-    appId: "1:54254015624:web:cd539561889eb3b945bb3d"
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+    authDomain: process.env.REACT_APP_FIREBASE_ATH_DOMAIN,
+    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_FIREBASE_APP_ID
   });
 
 // Initialize Firebase
@@ -25,4 +25,4 @@ const timestamp = firebase.firestore.FieldValue.serverTimestamp;
 export { projectStorage, projectFirestore, timestamp };
 //export const auth = firebaseConfig;
 export const auth = app.auth();
-//export default firebase;
+export default firebase;

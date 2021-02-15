@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../css/openhamburger.css";
+import "../css/openhamburger.scss";
 
 function OpenHamburger() {
   return (
