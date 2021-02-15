@@ -5,7 +5,7 @@ import "../css/imagegrid.scss";
 
 const ImageGrid = ({ setSelectedImg }) => {
   const { docs } = useFirestore("images");
-
+  console.log(docs);
   return (
     <div className="img-grid">
       {docs &&
