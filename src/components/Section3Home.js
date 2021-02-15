@@ -52,11 +52,13 @@ function Section3Home() {
           ></img>
           <div className="cell-line"></div>
           <div className="cell-line2"></div>
-          <Link to="/about">
+          <Link to="/login">
             <h3 className="section-3-link">Find out how</h3>
           </Link>
         </div>
       </div>
+
+      {/*******************FOOTER***************/}
       <div className="footer-wrap">
         <div className="footer-h4-flex">
           <h4 className="footer-h4">Artsy</h4>
