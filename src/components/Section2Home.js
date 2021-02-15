@@ -385,9 +385,8 @@ function Section2Home() {
         <div className="float-col">
           <h3 className="home-h3">Who Are We</h3>
           <p className="float-p">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat,
+            You want to know more about the birth of ArtsyIsh
+            and the history of its founders ? No problemo
           </p>
           <ul className="float-ul-about">
             <Link to="/about">
