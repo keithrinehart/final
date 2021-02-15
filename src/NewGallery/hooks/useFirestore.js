@@ -1,11 +1,13 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import { projectFirestore } from '../../firebaseConfig';
+import {AuthContext} from '../../Auth/contexts/AuthContext';
 
-const useFirestore = (collection) => {
+const useFirestore = () => {
   const [docs, setDocs] = useState([]);
+  const {currentUser} = useContext(AuthContext)
 
   useEffect(() => {
-    const unsub = projectFirestore.collection(collection)
+    const unsub = projectFirestore.collection('users').doc(currentUser.uid).collection('Gallery')
       //.where("author", "==", "QhTXBZ0IQR4dqEJpR8Eg")
       .orderBy('createdAt', 'desc')
       .onSnapshot(snap => {
@@ -20,7 +22,7 @@ const useFirestore = (collection) => {
     return () => unsub();
     // this is a cleanup function that react will run when
     // a component using the hook unmounts
-  }, [collection]);
+  }, []);
 
   return { docs };
 }
