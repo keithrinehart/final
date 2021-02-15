@@ -15,7 +15,7 @@ const Title = () => {
       </h2>
 
       <p className="title-p">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        + +  SHOW    YOUR     TALENT     TO     THE     NET     AND     THE     MASSES  + +
       </p>
     </div>
   );

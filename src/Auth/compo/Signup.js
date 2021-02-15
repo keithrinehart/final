@@ -64,7 +64,7 @@ export default function Signup() {
           {/*contains all the login info*/}
           <Card.Body className="card-body-signup">
             <h2 className="text-center mb-4">
-              SigN <span class="signup-span">Up</span>
+              Sign <span class="signup-span">Up</span>
             </h2>
             {error && <Alert variant="danger">{error}</Alert>}
             <Form className="form-signup" onSubmit={handleSubmit}>
