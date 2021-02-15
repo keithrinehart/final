@@ -1,5 +1,5 @@
 .about-body {
-  height: 100vh;
+  height: auto;
   overflow: hidden;
   background-color: #171c27;
   justify-content: center;
@@ -7,7 +7,7 @@
 
 .about-wrapper {
   position: relative;
-  padding: 300px 0 229px 0;
+  padding: 300px 0 110px 0;
   width: 100%;
   margin: 0 auto;
   justify-content: center;
@@ -17,14 +17,29 @@
 
 .about-h1 {
   position: relative;
-  top: -200px;
+  top: -220px;
+  left: -48px;
+  color: var(--primary);
+  font-size: 50px;
+  font-weight: 500;
+  text-shadow: 2px 4px 15px rgba(0, 0, 0, 0.9);
+  font-family: "Cinzel Decorative", cursive;
+}
+
+.about-h1-2 {
+  position: relative;
+  top: -245px;
+  left: 40px;
   color: ivory;
+  font-weight: 500;
+  text-shadow: 2px 4px 15px rgb(0, 0, 0, 0.91);
+  font-family: "Cinzel Decorative", cursive;
 }
 
 .about-flex {
   position: relative;
-  top: 0px;
-  left: 1830px;
+  top: -50px;
+  left: 2520px;
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -33,98 +48,99 @@
 
 .about-p1 {
   position: relative;
-  top: -406px;
-  left: 300px;
+  top: -25px;
+  left: 290px;
   transition: transform 500ms ease-in-out;
 }
 
 .about-wrapper:hover .about-p1 {
-  transform: translate(0px, 380px);
+  transform: translate(0px, 0px);
   transition-delay: 1s;
 }
 
 .about-span1 {
   font-size: 40px;
+  font-family: "Cinzel Decorative", cursive;
   color: var(--primary);
 }
 
 .about-p2 {
   position: relative;
-  left: -305px;
+  left: 294px;
   transition: transform 500ms ease-in-out;
 }
 
 .about-wrapper:hover .about-p2 {
-  transform: translate(610px, 0px);
+  transform: translate(0px, 0px);
   transition-delay: 500ms;
 }
 .about-p3 {
   position: relative;
-  left: 308px;
+  left: 298px;
 }
 .about-p4 {
   position: relative;
-  left: 312px;
+  left: 302px;
 }
 .about-p5 {
   position: relative;
-  left: 316px;
+  left: 306px;
 }
 .about-p6 {
   position: relative;
-  left: 320px;
+  left: 310px;
 }
 .about-p7 {
   position: relative;
-  left: 324px;
+  left: 340px;
 }
 .about-p8 {
   position: relative;
-  left: 328px;
+  left: 344px;
 }
 .about-p9 {
   position: relative;
-  left: 332px;
+  left: 348px;
 }
 .about-p10 {
   position: relative;
-  left: 336px;
+  left: 352px;
 }
 .about-p11 {
   position: relative;
-  left: 340px;
+  left: 356px;
 }
 .about-p12 {
   position: relative;
-  left: 344px;
+  left: 360px;
 }
 .about-p13 {
   position: relative;
-  left: 348px;
+  left: 364px;
 }
 .about-p14 {
   position: relative;
-  left: 352px;
+  left: 368px;
 }
 .about-p15 {
   position: relative;
-  left: 356px;
+  left: 372px;
 }
 .about-p16 {
   position: relative;
-  left: 360px;
+  left: 380px;
 }
 .about-p17 {
   position: relative;
-  left: 364px;
+  left: 384px;
 }
 .about-p18 {
   position: relative;
-  left: 368px;
+  left: 388px;
 }
 .about-p19 {
   position: relative;
-  left: 372px;
+  left: 392px;
 }
 
 /*********************************************/
@@ -133,7 +149,8 @@
   position: relative;
   display: flex;
   top: 25px;
-  left: -865px;
+  left: -700px;
+  padding: 5px 0px;
 }
 
 .about-p20 {
@@ -154,64 +171,72 @@
 }
 .about-p24 {
   position: relative;
-  left: 320px;
+  left: 316px;
+  top: -25px;
+}
+
+.about-span2 {
+  font-size: 40px;
+  font-family: "Cinzel Decorative", cursive;
+  color: var(--primary);
 }
 
 .about-p25 {
   position: relative;
-  left: 324px;
+  left: 322px;
 }
 .about-p26 {
   position: relative;
-  left: 328px;
+  left: 344px;
 }
 .about-p27 {
   position: relative;
-  left: 332px;
+  left: 348px;
 }
 .about-p28 {
   position: relative;
-  left: 336px;
+  left: 352px;
 }
 .about-p29 {
   position: relative;
-  left: 340px;
+  left: 356px;
 }
 .about-p30 {
   position: relative;
-  left: 344px;
+  left: 360px;
 }
 .about-p31 {
   position: relative;
-  left: 348px;
+  left: 364px;
 }
 .about-p32 {
   position: relative;
-  left: 352px;
+  left: 368px;
 }
 .about-p33 {
   position: relative;
-  left: 356px;
+  left: 372px;
 }
 .about-p34 {
   position: relative;
-  left: 360px;
+  left: 376px;
 }
 .about-p35 {
   position: relative;
-  left: 364px;
+  left: 380px;
 }
 .about-p36 {
   position: relative;
-  left: 368px;
+  left: 384px;
 }
 .about-p37 {
   position: relative;
-  left: 372px;
+  left: 388px;
 }
 .about-p38 {
   position: relative;
-  left: 376px;
+  left: 392px;
+
 }
 
 /*********************************************/
@@ -220,85 +245,107 @@
   position: relative;
   display: flex;
   top: 50px;
-  left: -1727px;
+  left: -1410px;
+  padding: 10px 0px;
 }
 
 .about-p39 {
   position: relative;
-  left: 304px;
+  left: 288px;
 }
 .about-p40 {
   position: relative;
-  left: 308px;
+  left: 294px;
 }
 .about-p41 {
   position: relative;
-  left: 312px;
+  left: 300px;
 }
 .about-p42 {
   position: relative;
-  left: 316px;
+  left: 306px;
 }
 .about-p43 {
   position: relative;
-  left: 320px;
+  left: 345px;
+
 }
 
 .about-p44 {
   position: relative;
-  left: 324px;
+  left: 350px;
 }
 .about-p45 {
   position: relative;
-  left: 328px;
+  left: 355px;
+  top: -25px;
+}
+
+.about-span3 {
+  font-size: 40px;
+  font-family: "Cinzel Decorative", cursive;
+  color: var(--primary);
 }
 .about-p46 {
   position: relative;
-  left: 332px;
+  left: 360px;
 }
 .about-p47 {
   position: relative;
-  left: 336px;
+  left: 365px;
 }
 .about-p48 {
   position: relative;
-  left: 340px;
+  left: 370px;
 }
 .about-p49 {
   position: relative;
-  left: 344px;
+  left: 375px;
 }
 .about-p50 {
   position: relative;
-  left: 348px;
+  left: 380px;
 }
 .about-p51 {
   position: relative;
-  left: 352px;
+  left: 385px;
 }
 .about-p52 {
   position: relative;
-  left: 356px;
+  left: 390px;
 }
 .about-p53 {
   position: relative;
-  left: 360px;
+  left: 395px;
 }
 .about-p54 {
   position: relative;
-  left: 364px;
+  left: 400px;
 }
 .about-p55 {
   position: relative;
-  left: 368px;
+  left: 405px;
 }
 .about-p56 {
   position: relative;
-  left: 372px;
+  left: 408px;
 }
 .about-p57 {
   position: relative;
-  left: 376px;
+  left: 425px;
+}
+.about-p58 {
+  position: relative;
+  left: 430px;
+}
+.about-p59 {
+  position: relative;
+  left: 435px;
+}
+.about-p60 {
+  position: relative;
+  left: 440px;
+
 }
 
 /*********************************************/
@@ -307,85 +354,122 @@
   position: relative;
   display: flex;
   top: 75px;
-  left: -2590px;
+  left: -2050px;
+  padding: 15px 0px;
 }
 
-.about-p58 {
-  position: relative;
-  left: 304px;
-}
-.about-p59 {
-  position: relative;
-  left: 308px;
-}
-.about-p60 {
-  position: relative;
-  left: 312px;
-}
 .about-p61 {
   position: relative;
-  left: 316px;
+  left: 235px;
 }
 .about-p62 {
   position: relative;
-  left: 320px;
+  left: 240px;
 }
 
 .about-p63 {
   position: relative;
-  left: 324px;
+  left: 245px;
 }
 .about-p64 {
   position: relative;
-  left: 328px;
+  left: 250px;
+}
+.about-span4 {
+  font-size: 40px;
+  font-family: "Cinzel Decorative", cursive;
+  color: var(--primary);
 }
 .about-p65 {
   position: relative;
-  left: 332px;
+  left: 255px;
+  top: -25px;
 }
 .about-p66 {
   position: relative;
-  left: 336px;
+  left: 259px;
 }
 .about-p67 {
   position: relative;
-  left: 340px;
+  left: 265px;
 }
 .about-p68 {
   position: relative;
-  left: 344px;
+  left: 270px;
 }
 .about-p69 {
   position: relative;
-  left: 348px;
+  left: 275px;
 }
 .about-p70 {
   position: relative;
-  left: 352px;
+  left: 280px;
 }
 .about-p71 {
   position: relative;
-  left: 356px;
+  left: 285px;
 }
 .about-p72 {
   position: relative;
-  left: 360px;
+  left: 290px;
 }
 .about-p73 {
   position: relative;
-  left: 364px;
+  left: 295px;
 }
 .about-p74 {
   position: relative;
-  left: 368px;
+  left: 300px;
 }
 .about-p75 {
   position: relative;
-  left: 372px;
+  left: 305px;
 }
 .about-p76 {
   position: relative;
-  left: 376px;
+  left: 310px;
+}
+.about-p78 {
+  position: relative;
+  left: 315px;
+}
+.about-p79 {
+  position: relative;
+  left: 320px;
+}
+.about-p80 {
+  position: relative;
+  left: 325px;
+}
+.about-p81 {
+  position: relative;
+  left: 330px;
+  top: -25px;
+}
+.about-span5 {
+  font-size: 40px;
+  font-family: "Cinzel Decorative", cursive;
+  color: var(--primary);
+}
+.about-p82 {
+  position: relative;
+  left: 335px;
+
+
+
+/*********************************************/
+
+
+
+}
+
+.about-p83 {
+  position: relative;
+  left: 340px;
+}
+.about-p84 {
+  position: relative;
+  left: 345px;
 }
 
 /*********************************************/
@@ -394,34 +478,10 @@
   position: relative;
   display: flex;
   top: 100px;
-  left: -3452px;
+  left: -2845px;
+  padding: 20px 0px;
 }
 
-.about-p78 {
-  position: relative;
-  left: 304px;
-}
-.about-p79 {
-  position: relative;
-  left: 308px;
-}
-.about-p80 {
-  position: relative;
-  left: 312px;
-}
-.about-p81 {
-  position: relative;
-  left: 316px;
-}
-.about-p82 {
-  position: relative;
-  left: 320px;
-}
-
-.about-p83 {
-  position: relative;
-  left: 324px;
-}
 .about-p84 {
   position: relative;
   left: 328px;
@@ -441,10 +501,24 @@
 .about-p88 {
   position: relative;
   left: 344px;
+  top: -4px;
+}
+
+.about-k {
+  font-size: 20px;
+  font-family: "Cinzel Decorative", cursive;
+  color: var(--primary);
 }
 .about-p89 {
   position: relative;
   left: 348px;
+  top: -4px;
+}
+
+.about-name2 {
+  font-size: 20px;
+  font-family: "Cinzel Decorative", cursive;
+  color: var(--primary);
 }
 .about-p90 {
   position: relative;
@@ -469,10 +543,50 @@
 .about-p95 {
   position: relative;
   left: 372px;
+
+  top: -8px;
+}
+.sec5-span1 {
+  font-size: 24px;
+  font-family: "Cinzel Decorative", cursive;
+  color: var(--primary);
+
 }
 .about-p96 {
   position: relative;
   left: 376px;
+}
+
+.about-p98 {
+  position: relative;
+  left: 381px;
+}
+.about-p99 {
+  position: relative;
+  left: 386px;
+}
+.about-p100 {
+  position: relative;
+  left: 391px;
+}
+.about-p101 {
+  position: relative;
+  left: 396px;
+}
+.about-p102 {
+  position: relative;
+  left: 401px;
+
+
+/*********************************************/
+
+
+
+}
+
+.about-p103 {
+  position: relative;
+  left: 406px;
 }
 
 /*********************************************/
@@ -481,83 +595,399 @@
   position: relative;
   display: flex;
   top: 125px;
-  left: -4313px;
+  left: -3680px;
+  padding: 25px 0px;
 }
 
-.about-p98 {
-  position: relative;
-  left: 304px;
-}
-.about-p99 {
-  position: relative;
-  left: 308px;
-}
-.about-p100 {
-  position: relative;
-  left: 312px;
-}
-.about-p101 {
-  position: relative;
-  left: 316px;
-}
-.about-p102 {
-  position: relative;
-  left: 320px;
-}
-
-.about-p103 {
-  position: relative;
-  left: 324px;
-}
 .about-p104 {
   position: relative;
-  left: 328px;
+  left: 325px;
+  top: -25px;
+}
+.about-span6 {
+  font-size: 40px;
+  font-family: "Cinzel Decorative", cursive;
+  color: var(--primary);
 }
 .about-p105 {
   position: relative;
-  left: 332px;
+  left: 335px;
 }
 .about-p106 {
   position: relative;
-  left: 336px;
+  left: 340px;
 }
 .about-p107 {
   position: relative;
-  left: 340px;
+  left: 345px;
 }
 .about-p108 {
   position: relative;
-  left: 344px;
+  left: 350px;
 }
 .about-p109 {
   position: relative;
-  left: 348px;
+  left: 355px;
 }
 .about-p110 {
   position: relative;
-  left: 352px;
+  left: 360px;
 }
 .about-p111 {
   position: relative;
-  left: 356px;
+  left: 365px;
 }
 .about-p112 {
   position: relative;
-  left: 360px;
+  left: 395px;
 }
 .about-p113 {
   position: relative;
-  left: 364px;
+  left: 400px;
 }
 .about-p114 {
   position: relative;
-  left: 368px;
+  left: 408px;
+  top: -4px;
+}
+.about-span7 {
+  font-size: 20px;
+  font-family: "Cinzel Decorative", cursive;
+  color: var(--primary);
 }
 .about-p115 {
   position: relative;
-  left: 372px;
+  left: 415px;
 }
 .about-p116 {
   position: relative;
-  left: 376px;
+  left: 421px;
+  top: -4px;
+}
+
+.about-name3 {
+  font-size: 20px;
+  font-family: "Cinzel Decorative", cursive;
+  color: var(--primary);
+}
+.about-p117 {
+  position: relative;
+  left: 430px;
+  top: -4px;
+}
+.about-name4 {
+  font-size: 20px;
+  font-family: "Cinzel Decorative", cursive;
+  color: var(--primary);
+}
+.about-p118 {
+  position: relative;
+  left: 435px;
+}
+.about-p119 {
+  position: relative;
+  left: 440px;
+}
+.about-p120 {
+  position: relative;
+  left: 445px;
+}
+.about-p121 {
+  position: relative;
+  left: 450px;
+}
+.about-p122 {
+  position: relative;
+  left: 455px;
+}
+.about-p123 {
+  position: relative;
+  left: 460px;
+  top: -7px;
+}
+.sec6-span1 {
+  font-size: 24px;
+  font-family: "Cinzel Decorative", cursive;
+  color: var(--primary);
+}
+
+/***********************SECTION-7********************/
+
+.about-p-sec-7 {
+  position: relative;
+  display: flex;
+  top: 150px;
+  left: -4535px;
+  padding: 30px 0px;
+}
+.about-p124 {
+  position: relative;
+  left: 460px;
+}
+.about-p125 {
+  position: relative;
+  left: 465px;
+}
+.about-p126 {
+  position: relative;
+  left: 470px;
+}
+.about-p127 {
+  position: relative;
+  left: 475px;
+}
+.about-p128 {
+  position: relative;
+  left: 480px;
+}
+.about-p129 {
+  position: relative;
+  left: 485px;
+}
+.about-p130 {
+  position: relative;
+  left: 490px;
+}
+.about-p131 {
+  position: relative;
+  left: 495px;
+}
+.about-p132 {
+  position: relative;
+  left: 500px;
+}
+.about-p133 {
+  position: relative;
+  left: 505px;
+  top: -25px;
+}
+.sec7-span2 {
+  font-size: 40px;
+  font-family: "Cinzel Decorative", cursive;
+  color: var(--primary);
+}
+.about-p134 {
+  position: relative;
+  left: 510px;
+}
+.about-p135 {
+  position: relative;
+  left: 515px;
+}
+.about-p136 {
+  position: relative;
+  left: 520px;
+}
+.about-p137 {
+  position: relative;
+  left: 525px;
+}
+.about-p138 {
+  position: relative;
+  left: 530px;
+}
+.about-p139 {
+  position: relative;
+  left: 535px;
+}
+.about-p140 {
+  position: relative;
+  left: 540px;
+}
+.about-p141 {
+  position: relative;
+  left: 555px;
+}
+.about-p142 {
+  position: relative;
+  left: 560px;
+}
+.about-p143 {
+  position: relative;
+  left: 565px;
+}
+.about-p144 {
+  position: relative;
+  left: 570px;
+}
+.about-p145 {
+  position: relative;
+  left: 575px;
+}
+.about-p146 {
+  position: relative;
+  left: 580px;
+}
+.about-p147 {
+  position: relative;
+  left: 585px;
+  top: -25px;
+}
+.sec7-span1 {
+  font-size: 40px;
+  font-family: "Cinzel Decorative", cursive;
+  color: var(--primary);
+}
+
+/************************SECTION-8*********************/
+
+.about-p-sec-8 {
+  position: relative;
+  display: flex;
+  top: 175px;
+  left: -5365px;
+  padding: 35px 0px;
+}
+.about-p148 {
+  position: relative;
+  left: 515px;
+}
+.about-p149 {
+  position: relative;
+  left: 520px;
+}
+.about-p150 {
+  position: relative;
+  left: 525px;
+}
+.about-p151 {
+  position: relative;
+  left: 530px;
+}
+.about-p152 {
+  position: relative;
+  left: 535px;
+}
+.about-p153 {
+  position: relative;
+  left: 540px;
+}
+.about-p154 {
+  position: relative;
+  left: 545px;
+}
+.about-p155 {
+  position: relative;
+  left: 550px;
+}
+.about-p156 {
+  position: relative;
+  left: 555px;
+}
+.about-p157 {
+  position: relative;
+  left: 560px;
+}
+.about-p158 {
+  position: relative;
+  left: 565px;
+}
+.about-p159 {
+  position: relative;
+  left: 570px;
+}
+.about-p160 {
+  position: relative;
+  left: 575px;
+}
+.about-p161 {
+  position: relative;
+  left: 585px;
+  top: -25px;
+}
+
+.sec8-span1 {
+  font-size: 40px;
+  font-family: "Cinzel Decorative", cursive;
+  color: var(--primary);
+}
+.about-p162 {
+  position: relative;
+  left: 590px;
+}
+.about-p163 {
+  position: relative;
+  left: 595px;
+}
+.about-p164 {
+  position: relative;
+  left: 600px;
+}
+.about-p165 {
+  position: relative;
+  left: 605px;
+}
+.about-p166 {
+  position: relative;
+  left: 610px;
+}
+.about-p167 {
+  position: relative;
+  left: 615px;
+}
+
+/*************************SECTION-9***********************/
+.about-p-sec-9 {
+  position: relative;
+  display: flex;
+  top: 200px;
+  left: -6283px;
+  padding: 40px 0px;
+}
+
+.about-p168 {
+  position: relative;
+  left: 625px;
+}
+.about-p169 {
+  position: relative;
+  left: 630px;
+}
+.about-p170 {
+  position: relative;
+  left: 635px;
+}
+.about-p171 {
+  position: relative;
+  left: 640px;
+}
+.about-p172 {
+  position: relative;
+  left: 645px;
+}
+.about-p173 {
+  position: relative;
+  left: 655px;
+}
+.about-p174 {
+  position: relative;
+  left: 660px;
+}
+.about-p175 {
+  position: relative;
+  left: 665px;
+}
+.about-p176 {
+  position: relative;
+  left: 670px;
+}
+.about-p177 {
+  position: relative;
+  left: 675px;
+}
+.about-p178 {
+  position: relative;
+  left: 685px;
+}
+.about-p179 {
+  position: relative;
+  left: 690px;
+}
+.about-p180 {
+  position: relative;
+  left: 695px;
+}
+.about-p181 {
+  position: relative;
+  left: 700px;
 }
