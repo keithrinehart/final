@@ -17,23 +17,34 @@
 
 .about-h1 {
   position: relative;
-  top: -220px;
+  top: -400px;
   left: -48px;
   color: var(--primary);
   font-size: 50px;
   font-weight: 500;
   text-shadow: 2px 4px 15px rgba(0, 0, 0, 0.9);
   font-family: "Cinzel Decorative", cursive;
+  transition: transform 5s ease-in-out;
+}
+
+.about-wrapper:hover .about-h1 {
+  transform: translate(0px, 185px);
+  transition-delay: 500ms;
 }
 
 .about-h1-2 {
   position: relative;
   top: -245px;
-  left: 40px;
+  left: 1000px;
   color: ivory;
   font-weight: 500;
   text-shadow: 2px 4px 15px rgb(0, 0, 0, 0.91);
   font-family: "Cinzel Decorative", cursive;
+  transition: transform 2s ease-in-out;
+}
+
+.about-wrapper:hover .about-h1-2 {
+  transform: translate(-960px, 0px);
 }
 
 .about-flex {
@@ -48,14 +59,14 @@
 
 .about-p1 {
   position: relative;
-  top: -25px;
-  left: 290px;
-  transition: transform 500ms ease-in-out;
+  top: 200px;
+  left: -300px;
+  transition: transform 5s ease-in-out;
 }
 
 .about-wrapper:hover .about-p1 {
-  transform: translate(0px, 0px);
-  transition-delay: 1s;
+  transform: translate(589px, -225px);
+  transition-delay: 500ms;
 }
 
 .about-span1 {
@@ -66,81 +77,217 @@
 
 .about-p2 {
   position: relative;
-  left: 294px;
-  transition: transform 500ms ease-in-out;
+  left: -294px;
+  top: -500px;
+  transition: transform 4s ease-in-out;
 }
 
 .about-wrapper:hover .about-p2 {
-  transform: translate(0px, 0px);
-  transition-delay: 500ms;
+  transform: translate(588px, 500px);
+  transition-delay: 1s;
 }
 .about-p3 {
   position: relative;
-  left: 298px;
+  left: 0px;
+  top: -500px;
+  transition: transform 4s ease-in-out;
 }
+
+.about-wrapper:hover .about-p3 {
+  transform: translate(298px, 500px);
+  transition-delay: 1.6s;
+}
+
 .about-p4 {
   position: relative;
-  left: 302px;
+  left: 600px;
+  top: -500px;
+  transition: transform 4s ease-in-out;
 }
+
+.about-wrapper:hover .about-p4 {
+  transform: translate(-298px, 500px);
+  transition-delay: 1.2s;
+}
+
 .about-p5 {
   position: relative;
   left: 306px;
+  top: -500px;
+  transition: transform 4s ease-in-out;
 }
+
+.about-wrapper:hover .about-p5 {
+  transform: translate(0px, 500px);
+  transition-delay: 1.7s;
+}
+
 .about-p6 {
   position: relative;
-  left: 310px;
+  left: 100px;
+  top: -500px;
+  transition: transform 4s ease-in-out;
 }
+
+.about-wrapper:hover .about-p6 {
+  transform: translate(210px, 500px);
+  transition-delay: 1.2s;
+}
+
 .about-p7 {
   position: relative;
-  left: 340px;
+  left: 200px;
+  top: -500px;
+  transition: transform 4s ease-in-out;
 }
+
+.about-wrapper:hover .about-p7 {
+  transform: translate(138px, 500px);
+  transition-delay: 1.8s;
+}
+
 .about-p8 {
   position: relative;
-  left: 344px;
+  left: 400px;
+  top: -500px;
+  transition: transform 4s ease-in-out;
 }
+
+.about-wrapper:hover .about-p8 {
+  transform: translate(-56px, 500px);
+  transition-delay: 1s;
+}
+
 .about-p9 {
   position: relative;
-  left: 348px;
+  left: 200px;
+  top: -500px;
+  transition: transform 4s ease-in-out;
 }
+
+.about-wrapper:hover .about-p9 {
+  transform: translate(149px, 500px);
+  transition-delay: 1.3s;
+}
+
 .about-p10 {
   position: relative;
-  left: 352px;
+  left: 500px;
+  top: -500px;
+  transition: transform 4s ease-in-out;
 }
+
+.about-wrapper:hover .about-p10 {
+  transform: translate(-145px, 500px);
+  transition-delay: 1.4s;
+}
+
 .about-p11 {
   position: relative;
-  left: 356px;
+  left: 400px;
+  top: -500px;
+  transition: transform 4s ease-in-out;
 }
+
+.about-wrapper:hover .about-p11 {
+  transform: translate(-38px, 500px);
+  transition-delay: 1.8s;
+}
+
 .about-p12 {
   position: relative;
-  left: 360px;
+  left: 860px;
+  top: -500px;
+  transition: transform 4s ease-in-out;
 }
+
+.about-wrapper:hover .about-p12 {
+  transform: translate(-491px, 500px);
+  transition-delay: 1.3s;
+}
+
 .about-p13 {
   position: relative;
-  left: 364px;
+  left: 480px;
+  top: -500px;
+  transition: transform 4s ease-in-out;
 }
+
+.about-wrapper:hover .about-p13 {
+  transform: translate(-104px, 500px);
+  transition-delay: 1.7s;
+}
+
 .about-p14 {
   position: relative;
-  left: 368px;
+  left: 668px;
+  top: -500px;
+  transition: transform 4s ease-in-out;
 }
+
+.about-wrapper:hover .about-p14 {
+  transform: translate(-287px, 500px);
+  transition-delay: 1.1s;
+}
+
 .about-p15 {
   position: relative;
-  left: 372px;
+  left: 772px;
+  top: -500px;
+  transition: transform 4s ease-in-out;
 }
+
+.about-wrapper:hover .about-p15 {
+  transform: translate(-385px, 500px);
+  transition-delay: 1.6s;
+}
+
 .about-p16 {
   position: relative;
-  left: 380px;
+  left: 0px;
+  top: -500px;
+  transition: transform 4s ease-in-out;
 }
+
+.about-wrapper:hover .about-p16 {
+  transform: translate(395px, 500px);
+  transition-delay: 1.9s;
+}
+
 .about-p17 {
   position: relative;
-  left: 384px;
+  left: 424px;
+  top: -500px;
+  transition: transform 4s ease-in-out;
 }
+
+.about-wrapper:hover .about-p17 {
+  transform: translate(-25px, 500px);
+  transition-delay: 1.2s;
+}
+
 .about-p18 {
   position: relative;
-  left: 388px;
+  left: 888px;
+  top: -500px;
+  transition: transform 4s ease-in-out;
 }
+
+.about-wrapper:hover .about-p18 {
+  transform: translate(-485px, 500px);
+  transition-delay: 1.5s;
+}
+
 .about-p19 {
   position: relative;
-  left: 392px;
+  left: 992px;
+  top: -500px;
+  transition: transform 4s ease-in-out;
+}
+
+.about-wrapper:hover .about-p19 {
+  transform: translate(-583px, 500px);
+  transition-delay: 1.2s;
 }
 
 /*********************************************/
@@ -155,24 +302,62 @@
 
 .about-p20 {
   position: relative;
-  left: 304px;
+  left: -280px;
+  top: -190px;
+  transition: transform 4s ease-in-out;
 }
+
+.about-wrapper:hover .about-p20 {
+  transform: translate(583px, 190px);
+  transition-delay: 2s;
+}
+
 .about-p21 {
   position: relative;
-  left: 308px;
+  left: -288px;
+  top: -300px;
+  transition: transform 3s ease-in-out;
 }
+
+.about-wrapper:hover .about-p21 {
+  transform: translate(596px, 300px);
+  transition-delay: 2s;
+}
+
 .about-p22 {
   position: relative;
-  left: 312px;
+  left: -112px;
+  top: -500px;
+  transition: transform 3s ease-in-out;
 }
+
+.about-wrapper:hover .about-p22 {
+  transform: translate(425px, 500px);
+  transition-delay: 1.6s;
+}
+
 .about-p23 {
   position: relative;
-  left: 316px;
+  left: 116px;
+  top: -500px;
+  transition: transform 3s ease-in-out;
 }
+
+.about-wrapper:hover .about-p23 {
+  transform: translate(203px, 500px);
+  transition-delay: 1.9s;
+}
+
 .about-p24 {
   position: relative;
-  left: 316px;
-  top: -25px;
+  left: -420px;
+  top: -500px;
+  transition: transform 4s ease-in-out;
+}
+
+.about-wrapper:hover .about-p24 {
+  transform: translate(735px, 475px);
+  transition-delay: 500ms;
 }
 
 .about-span2 {
@@ -183,48 +368,136 @@
 
 .about-p25 {
   position: relative;
-  left: 322px;
+  left: 122px;
+  top: -500px;
+  transition: transform 3s ease-in-out;
 }
+
+.about-wrapper:hover .about-p25 {
+  transform: translate(200px, 500px);
+  transition-delay: 1.8s;
+}
+
 .about-p26 {
   position: relative;
-  left: 344px;
+  left: 200px;
+  top: -500px;
+  transition: transform 3s ease-in-out;
 }
+
+.about-wrapper:hover .about-p26 {
+  transform: translate(143px, 500px);
+  transition-delay: 1.9s;
+}
+
 .about-p27 {
   position: relative;
-  left: 348px;
+  left: 448px;
+  top: -500px;
+  transition: transform 3s ease-in-out;
 }
+
+.about-wrapper:hover .about-p27 {
+  transform: translate(-100px, 500px);
+  transition-delay: 1.7s;
+}
+
 .about-p28 {
   position: relative;
-  left: 352px;
+  left: 492px;
+  top: -500px;
+  transition: transform 3s ease-in-out;
 }
+
+.about-wrapper:hover .about-p28 {
+  transform: translate(-140px, 500px);
+  transition-delay: 1.5s;
+}
+
 .about-p29 {
   position: relative;
-  left: 356px;
+  left: 556px;
+  top: -500px;
+  transition: transform 3s ease-in-out;
 }
+
+.about-wrapper:hover .about-p29 {
+  transform: translate(-200px, 500px);
+  transition-delay: 1.9s;
+}
+
 .about-p30 {
   position: relative;
-  left: 360px;
+  left: 700px;
+  top: -500px;
+  transition: transform 3s ease-in-out;
 }
+
+.about-wrapper:hover .about-p30 {
+  transform: translate(-339px, 500px);
+  transition-delay: 1.6s;
+}
+
 .about-p31 {
   position: relative;
-  left: 364px;
+  left: 864px;
+  top: -500px;
+  transition: transform 3s ease-in-out;
 }
+
+.about-wrapper:hover .about-p31 {
+  transform: translate(-500px, 500px);
+  transition-delay: 1.2s;
+}
+
 .about-p32 {
   position: relative;
-  left: 368px;
+  left: 668px;
+  top: -500px;
+  transition: transform 3s ease-in-out;
 }
+
+.about-wrapper:hover .about-p32 {
+  transform: translate(-299px, 500px);
+  transition-delay: 1.8s;
+}
+
 .about-p33 {
   position: relative;
-  left: 372px;
+  left: 122px;
+  top: -500px;
+  transition: transform 3s ease-in-out;
 }
+
+.about-wrapper:hover .about-p33 {
+  transform: translate(250px, 500px);
+  transition-delay: 1.5s;
+}
+
 .about-p34 {
   position: relative;
-  left: 376px;
+  left: 776px;
+  top: -500px;
+  transition: transform 3s ease-in-out;
 }
+
+.about-wrapper:hover .about-p34 {
+  transform: translate(-400px, 500px);
+  transition-delay: 1.3s;
+}
+
 .about-p35 {
   position: relative;
-  left: 380px;
+  left: 100px;
+  top: -500px;
+  transition: transform 3s ease-in-out;
 }
+
+.about-wrapper:hover .about-p35 {
+  transform: translate(280px, 500px);
+  transition-delay: 1.3s;
+}
+
 .about-p36 {
   position: relative;
   left: 384px;
@@ -235,8 +508,14 @@
 }
 .about-p38 {
   position: relative;
-  left: 392px;
+  left: 1000px;
+  top: -300px;
+  transition: transform 4s ease-in-out;
+}
 
+.about-wrapper:hover .about-p38 {
+  transform: translate(-605px, 300px);
+  transition-delay: 1s;
 }
 
 /*********************************************/
@@ -251,8 +530,16 @@
 
 .about-p39 {
   position: relative;
-  left: 288px;
+  left: -300px;
+  top: -180px;
+  transition: transform 4s ease-in-out;
 }
+
+.about-wrapper:hover .about-p39 {
+  transform: translate(587px, 180px);
+  transition-delay: 1.8s;
+}
+
 .about-p40 {
   position: relative;
   left: 294px;
@@ -268,7 +555,6 @@
 .about-p43 {
   position: relative;
   left: 345px;
-
 }
 
 .about-p44 {
@@ -344,8 +630,14 @@
 }
 .about-p60 {
   position: relative;
-  left: 440px;
+  left: 1000px;
+  top: 200px;
+  transition: transform 4s ease-in-out;
+}
 
+.about-wrapper:hover .about-p60 {
+  transform: translate(-560px, -200px);
+  transition-delay: 1.4s;
 }
 
 /*********************************************/
@@ -360,8 +652,16 @@
 
 .about-p61 {
   position: relative;
-  left: 235px;
+  left: -390px;
+  top: -385px;
+  transition: transform 4s ease-in-out;
 }
+
+.about-wrapper:hover .about-p61 {
+  transform: translate(625px, 385px);
+  transition-delay: 1s;
+}
+
 .about-p62 {
   position: relative;
   left: 240px;
@@ -454,22 +754,20 @@
 .about-p82 {
   position: relative;
   left: 335px;
-
-
+}
 
 /*********************************************/
 
-
-
-}
-
 .about-p83 {
   position: relative;
-  left: 340px;
+  left: 1000px;
+  top: -100px;
+  transition: transform 4s ease-in-out;
 }
-.about-p84 {
-  position: relative;
-  left: 345px;
+
+.about-wrapper:hover .about-p83 {
+  transform: translate(-658px, 100px);
+  transition-delay: 1.1s;
 }
 
 /*********************************************/
@@ -484,8 +782,16 @@
 
 .about-p84 {
   position: relative;
-  left: 328px;
+  left: -298px;
+  top: 160px;
+  transition: transform 4s ease-in-out;
 }
+
+.about-wrapper:hover .about-p84 {
+  transform: translate(625px, -160px);
+  transition-delay: 1s;
+}
+
 .about-p85 {
   position: relative;
   left: 332px;
@@ -550,7 +856,6 @@
   font-size: 24px;
   font-family: "Cinzel Decorative", cursive;
   color: var(--primary);
-
 }
 .about-p96 {
   position: relative;
@@ -576,17 +881,18 @@
 .about-p102 {
   position: relative;
   left: 401px;
-
-
-/*********************************************/
-
-
-
 }
 
 .about-p103 {
   position: relative;
-  left: 406px;
+  left: 1006px;
+  top: -350px;
+  transition: transform 4s ease-in-out;
+}
+
+.about-wrapper:hover .about-p103 {
+  transform: translate(-600px, 350px);
+  transition-delay: 1.5s;
 }
 
 /*********************************************/
@@ -601,8 +907,14 @@
 
 .about-p104 {
   position: relative;
-  left: 325px;
-  top: -25px;
+  left: -220px;
+  top: -250px;
+  transition: transform 5s ease-in-out;
+}
+
+.about-wrapper:hover .about-p104 {
+  transform: translate(549px, 225px);
+  transition-delay: 1.5s;
 }
 .about-span6 {
   font-size: 40px;
@@ -702,8 +1014,14 @@
 }
 .about-p123 {
   position: relative;
-  left: 460px;
-  top: -7px;
+  left: 1100px;
+  top: -250px;
+  transition: transform 4s ease-in-out;
+}
+
+.about-wrapper:hover .about-p123 {
+  transform: translate(-640px, 242px);
+  transition-delay: 1.7s;
 }
 .sec6-span1 {
   font-size: 24px;
@@ -722,7 +1040,14 @@
 }
 .about-p124 {
   position: relative;
-  left: 460px;
+  left: -120px;
+  top: -130px;
+  transition: transform 4s ease-in-out;
+}
+
+.about-wrapper:hover .about-p124 {
+  transform: translate(580px, 130px);
+  transition-delay: 1.5s;
 }
 .about-p125 {
   position: relative;
@@ -758,9 +1083,16 @@
 }
 .about-p133 {
   position: relative;
-  left: 505px;
-  top: -25px;
+  left: 405px;
+  top: -620px;
+  transition: transform 5s ease-in-out;
 }
+
+.about-wrapper:hover .about-p133 {
+  transform: translate(100px, 595px);
+  transition-delay: 500ms;
+}
+
 .sec7-span2 {
   font-size: 40px;
   font-family: "Cinzel Decorative", cursive;
@@ -820,8 +1152,14 @@
 }
 .about-p147 {
   position: relative;
-  left: 585px;
-  top: -25px;
+  left: 1105px;
+  top: 25px;
+  transition: transform 5s ease-in-out;
+}
+
+.about-wrapper:hover .about-p147 {
+  transform: translate(-525px, -48px);
+  transition-delay: 500ms;
 }
 .sec7-span1 {
   font-size: 40px;
@@ -840,8 +1178,16 @@
 }
 .about-p148 {
   position: relative;
-  left: 515px;
+  left: -100px;
+  top: 50px;
+  transition: transform 4s ease-in-out;
 }
+
+.about-wrapper:hover .about-p148 {
+  transform: translate(615px, -50px);
+  transition-delay: 1.2s;
+}
+
 .about-p149 {
   position: relative;
   left: 520px;
@@ -923,7 +1269,14 @@
 }
 .about-p167 {
   position: relative;
-  left: 615px;
+  left: 1175px;
+  top: -100px;
+  transition: transform 4s ease-in-out;
+}
+
+.about-wrapper:hover .about-p167 {
+  transform: translate(-556px, 100px);
+  transition-delay: 1.9s;
 }
 
 /*************************SECTION-9***********************/
@@ -937,8 +1290,16 @@
 
 .about-p168 {
   position: relative;
-  left: 625px;
+  left: 50px;
+  top: -90px;
+  transition: transform 4s ease-in-out;
 }
+
+.about-wrapper:hover .about-p168 {
+  transform: translate(573px, 90px);
+  transition-delay: 1.9s;
+}
+
 .about-p169 {
   position: relative;
   left: 630px;
@@ -989,5 +1350,12 @@
 }
 .about-p181 {
   position: relative;
-  left: 700px;
+  left: 1500px;
+  top: 20px;
+  transition: transform 4s ease-in-out;
+}
+
+.about-wrapper:hover .about-p181 {
+  transform: translate(-798px, -20px);
+  transition-delay: 1.9s;
 }
