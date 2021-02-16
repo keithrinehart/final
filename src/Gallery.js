@@ -38,7 +38,9 @@ function Gallery() {
   return (
     <>
     <div className="gall-body">
+    <div className="gall-body-header">
       <h1 className="gall-h1">Gallery</h1>
+    </div>
       <div className="img-grid">
       {docs &&
         docs.map((doc) => (
