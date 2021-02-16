@@ -15,6 +15,7 @@ export default function Signup() {
   const { signup } = useAuth()
   const [error, setError] = useState("")
   const [loading, setLoading] = useState(false)
+  const [userName, setUsername] = useState(null);
   const history = useHistory()
 
   async function handleSubmit(e) {
@@ -43,7 +44,11 @@ export default function Signup() {
     try {
       setError("");
       setLoading(true);
-      await signup(emailRef.current.value, passwordRef.current.value);
+      const result = await signup(emailRef.current.value, passwordRef.current.value);
+      await db.collection('users').doc(result.user.uid).set({
+        name: userName,
+        email: result.user.email
+      })
       history.push("/newgallery");
     } catch {
       setError("Failed to create an account");
@@ -105,6 +110,8 @@ export default function Signup() {
                   ref={nameRef}
                   placeholder="Surname Name"
                   required 
+                  value={userName}
+                  onChange={(e) => setUsername(e.target.value)}
                 />
               </Form.Group>
               <Button disabled={loading} className="btn w-100" type="submit">

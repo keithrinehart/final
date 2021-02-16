@@ -3,19 +3,19 @@ import { Link } from 'react-router-dom';
 import Hamburger from "./components/Hamburger";
 import { projectFirestore } from './firebaseConfig';
 import "./css/galleries.scss";
+import useFirestore from './NewGallery/hooks/useFirestore'
 
 function Galleries() {
-  const [docs, setDocs] = useState([]);
+  const [users, setUsers] = useState([]);
 
   useEffect(() => {
     const unsub = projectFirestore.collection('users')
       .onSnapshot(snap => {
-        console.log(snap)
         let documents = [];
         snap.forEach(doc => {
           documents.push({...doc.data(), id: doc.id});
         });
-        setDocs(documents);
+        setUsers(documents);
       });
 
     return () => unsub();
@@ -23,15 +23,13 @@ function Galleries() {
     // a component using the hook unmounts
   }, []);
 
-  console.log(docs)
-
   return (
     <>
     {/*<div><Galleries /></div>*/}
     <div className="gall-body">
       <Hamburger />
       <h1 className="gall-h1">Galleries</h1>
-      {docs && docs.map(({ name, id }) => (
+      {users && users.map(({ name, id }) => (
         <Link key={id} to={`/galleries/${id}`}>{name}</Link>
       ))}
     </div>
