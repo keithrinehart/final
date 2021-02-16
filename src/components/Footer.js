@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../css/footer.css";
+import "../css/footer.scss";
 import Fface from "../img/face.jpg";
 
 function Footer() {
