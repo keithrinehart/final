@@ -30,7 +30,6 @@ function App() {
       <AuthProvider>
         <Router>
           <Switch>
-            
             <Route exact path="/" component={Home} />
             <Route exact path="/galleries" component={Galleries} />
             <Route path="/galleries/:userId" component={Gallery} />
@@ -45,7 +44,7 @@ function App() {
         </Router>
       </AuthProvider>
     </div>
-  )
-  }
+  );
+}
 
-  export default App;
+export default App;
