@@ -27,11 +27,13 @@ function Galleries() {
     <>
     {/*<div><Galleries /></div>*/}
     <div className="gall-body">
+      <div className="gall-body-header">
       <Hamburger />
       <h1 className="gall-h1">Galleries</h1>
       {users && users.map(({ name, id }) => (
-        <Link key={id} to={`/galleries/${id}`}>{name}</Link>
+        <Link className="gall-name" key={id} to={`/galleries/${id}`}>{name}</Link>
       ))}
+      </div>
     </div>
     </>
   );
