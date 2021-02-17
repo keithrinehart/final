@@ -172,7 +172,9 @@ function About() {
             <p className="about-p125">is</p>
             <p className="about-p126">living</p>
             <p className="about-p127">in</p>
-            <p className="about-p128">Berlin</p>
+            <p className="about-p128">
+              <span className="sec7-span-berlin">B</span>erlin
+            </p>
             <p className="about-p129">since</p>
             <p className="about-p130">a</p>
             <p className="about-p131">couple</p>
@@ -192,7 +194,9 @@ function About() {
             <p className="about-p143">professional</p>
             <p className="about-p144">life</p>
             <p className="about-p145">in</p>
-            <p className="about-p146">Germany.</p>
+            <p className="about-p146">
+              <span className="sec7-span-germany">G</span>ermany.
+            </p>
             <p className="about-p147">
               <span className="sec7-span1">H</span>e
             </p>
