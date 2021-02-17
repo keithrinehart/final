@@ -1,6 +1,15 @@
-.img-grid {
+.imagegrid-container {
+  position: relative;
   width: 100%;
-  padding: 190px 0 0 0;
+  height: 100%;
+  padding-bottom: 100px;
+  background-color: #171c27;
+}
+
+.img-grid {
+  position: relative;
+  width: 100%;
+  padding: 100px 0 100px 0;
 }
 .grid-image {
   position: relative;

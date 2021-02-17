@@ -13,6 +13,7 @@ body {
   background-color: #171c27;
 }
 .Gallery {
+  position: relative;
   max-width: 960px;
   background-color: #171c27;
   height: 100%;
@@ -75,8 +76,8 @@ label:hover .form-button {
 }
 
 .form-line {
-  position: relative;
-  top: -20px;
+  position: absolute;
+  top: 45px;
   left: 20px;
   width: 1px;
   background-color: rgb(255, 0, 0);
@@ -104,7 +105,7 @@ label:hover .form-line {
 
 .form-line-word {
   position: relative;
-  top: -100px;
+  top: -15px;
   left: -30px;
   opacity: 0;
   font-size: 20px;
@@ -117,12 +118,12 @@ label:hover .form-line-word {
 
 @keyframes form-line-word {
   0% {
-    top: -100px;
+    top: -15px;
     left: -30px;
     opacity: 0;
   }
   100% {
-    top: -100px;
+    top: -15px;
     left: -11px;
     opacity: 1;
   }
@@ -130,7 +131,7 @@ label:hover .form-line-word {
 
 .form-line-word2 {
   position: relative;
-  top: -75px;
+  top: -5px;
   left: 50px;
   opacity: 0;
   font-size: 22px;
@@ -143,12 +144,12 @@ label:hover .form-line-word2 {
 
 @keyframes form-line-word2 {
   0% {
-    top: -75px;
+    top: -5px;
     left: 50px;
     opacity: 0;
   }
   100% {
-    top: -75px;
+    top: -5px;
     left: 25px;
     opacity: 1;
   }

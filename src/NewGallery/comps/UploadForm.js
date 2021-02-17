@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../css/uploadform.scss";
 import ProgressBar from "./ProgressBar";
 
 const UploadForm = () => {
@@ -20,9 +21,9 @@ const UploadForm = () => {
   };
 
   return (
-    <form className="form">
-      <label className="form-labe">
-        <input type="file" onChange={handleChange} />{" "}
+    <form className="form-upload">
+      <label className="form-label-upload">
+        <input className="select-button" type="file" onChange={handleChange} />{" "}
         {/* allows users to select a file in the computer*/}
         <span className="form-button">Select</span>
         <div className="form-line"></div>
