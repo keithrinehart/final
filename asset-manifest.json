@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/final/static/css/main.a8bdae3e.chunk.css",
+    "main.js": "/final/static/js/main.32dfd39c.chunk.js",
+    "main.js.map": "/final/static/js/main.32dfd39c.chunk.js.map",
+    "runtime-main.js": "/final/static/js/runtime-main.317ad603.js",
+    "runtime-main.js.map": "/final/static/js/runtime-main.317ad603.js.map",
+    "static/css/2.150d169a.chunk.css": "/final/static/css/2.150d169a.chunk.css",
+    "static/js/2.4955fc22.chunk.js": "/final/static/js/2.4955fc22.chunk.js",
+    "static/js/2.4955fc22.chunk.js.map": "/final/static/js/2.4955fc22.chunk.js.map",
+    "static/js/3.dc370bdd.chunk.js": "/final/static/js/3.dc370bdd.chunk.js",
+    "static/js/3.dc370bdd.chunk.js.map": "/final/static/js/3.dc370bdd.chunk.js.map",
+    "index.html": "/final/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/final/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.a8bdae3e.chunk.css.map": "/final/static/css/main.a8bdae3e.chunk.css.map",
+    "static/js/2.4955fc22.chunk.js.LICENSE.txt": "/final/static/js/2.4955fc22.chunk.js.LICENSE.txt",
+    "static/media/artist-example.b35cf57f.jpg": "/final/static/media/artist-example.b35cf57f.jpg",
+    "static/media/cell2.db2e566f.png": "/final/static/media/cell2.db2e566f.png",
+    "static/media/face.4f90e50d.jpg": "/final/static/media/face.4f90e50d.jpg",
+    "static/media/img-1.75373fac.jpg": "/final/static/media/img-1.75373fac.jpg",
+    "static/media/img-10.110322f9.jpg": "/final/static/media/img-10.110322f9.jpg",
+    "static/media/img-16.92ac999b.jpg": "/final/static/media/img-16.92ac999b.jpg",
+    "static/media/section2home.scss": "/final/static/media/img-17.c0ccbd76.jpg",
+    "static/media/img-4.014a9e94.jpg": "/final/static/media/img-4.014a9e94.jpg",
+    "static/media/img-6.770a514a.jpg": "/final/static/media/img-6.770a514a.jpg",
+    "static/media/img1.c2e88811.jpg": "/final/static/media/img1.c2e88811.jpg",
+    "static/media/vtrooper.c4e17781.jpg": "/final/static/media/vtrooper.c4e17781.jpg",
+    "static/media/section1home.scss": "/final/static/media/zombie.bdd008cf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.317ad603.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.4955fc22.chunk.js",
+    "static/css/main.a8bdae3e.chunk.css",
+    "static/js/main.32dfd39c.chunk.js"
+  ]
+}
