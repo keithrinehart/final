@@ -22,7 +22,7 @@ function Galleries() {
     // this is a cleanup function that react will run when
     // a component using the hook unmounts
   }, []);
-
+  console.log(users);
   return (
     <>
     {/*<div><Galleries /></div>*/}
@@ -31,7 +31,7 @@ function Galleries() {
       <Hamburger />
       <h1 className="gall-h1">Galleries</h1>
       {users && users.map(({ name, id }) => (
-        <Link className="gall-name" key={id} to={`/galleries/${id}`}>{name}</Link>
+        <Link className="gall-name" key={id} to={`/galleries/${id}`}>{name} </Link>
       ))}
       </div>
     </div>

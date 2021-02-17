@@ -1,7 +1,7 @@
 import "./App.scss";
 import {
   Route,
-  BrowserRouter as Router,
+  HashRouter as Router, //or BrowserRouter
   Switch,
   Redirect,
 } from "react-router-dom";
