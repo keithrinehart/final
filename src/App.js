@@ -3,7 +3,6 @@ import {
   HashRouter as Router,
   Route, //or BrowserRouter
   Switch,
-  Redirect,
 } from "react-router-dom";
 import Home from "./Home";
 import Galleries from "./Galleries";
@@ -18,7 +17,6 @@ import About from "./About";
 import React from "react";
 import Signup from "./Auth/compo/Signup";
 import { AuthProvider } from "./Auth/contexts/AuthContext";
-import Dashboard from "./Auth/compo/Dashboard";
 import Login from "./Auth/compo/Login";
 import PrivateRoute from "./Auth/compo/PrivateRoute";
 import ForgotPassword from "./Auth/compo/ForgotPassword";
@@ -30,7 +28,6 @@ function App() {
       <AuthProvider>
         <Router>
           <Switch>
-            
             <Route exact path="/" component={Home} />
             <Route exact path="/galleries" component={Galleries} />
             <Route path="/galleries/:userId" component={Gallery} />
@@ -45,7 +42,7 @@ function App() {
         </Router>
       </AuthProvider>
     </div>
-  )
-  }
+  );
+}
 
-  export default App;
+export default App;
