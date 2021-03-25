@@ -8,7 +8,7 @@ function About() {
     <div className="about-body">
       <div className="about-wrapper">
         <h1 className="about-h1">ABOUT</h1>
-        <h1 className="about-h1-2">US</h1>
+        <h1 className="about-h1-2">ME</h1>
         <div className="about-flex">
           <p className="about-p1">
             <span className="about-span1">A</span>rtsyIsh
